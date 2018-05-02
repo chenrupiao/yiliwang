@@ -1,0 +1,20 @@
+/* pages/my2/order/after_sale/after_sale.wxss */
+.order-list1{background: #fff;width: 100%;box-sizing: border-box;padding:0 24rpx;display: inline-block;padding-bottom: 30rpx;}
+.order-bt{height: 90rpx;line-height: 90rpx;color: #333;font-size: 30rpx;}
+.order-bt text{color: #cc0011;font-size: 30rpx;}
+.nav-txt{font-size: 28rpx;color: #666;width: 100%;height: 80rpx;line-height: 80rpx;box-sizing: border-box;padding: 0 20rpx;border: 1px solid #d8d8d8;border-radius: 3px;}
+.nav-txt image{width: 27rpx;height: 15rpx;float: right;margin-top: 32rpx;}
+
+.order-list2{background: #fff;width: 100%;box-sizing: border-box;padding:0 24rpx;display: inline-block;padding-bottom: 30rpx;margin-top: 20rpx;}
+.order-list2 input{width: 100%;box-sizing: border-box;padding: 0 20rpx;height: 80rpx;line-height: 80rpx;border: 1px solid #d8d8d8;border-radius: 3px;font-size: 28rpx;}
+.order-list2 textarea{width: 100%;box-sizing: border-box;padding: 20rpx;font-size: 28rpx;border-radius: 3px;border: 1px solid #d8d8d8}
+
+.order-list3{background: #fff;width: 100%;box-sizing: border-box;padding:0 24rpx;display: inline-block;margin-top: 20rpx;}
+.order-pic{width: 100%;display: inline-block;}
+.order-pic navigator{float: left;margin-right: 20rpx;position: relative;margin-bottom: 10rpx;}
+.order-pic image{width: 120rpx;height: 120rpx;border-radius: 3px}
+.order-pic .close{position: absolute;width: 30rpx;height: 30rpx;right: -15rpx;top: -15rpx;z-index: 3;}
+.order-txt{width: 100%;}
+.order-txt text{display: block;width: 100%;color: #999;font-size: 24rpx;line-height: 80rpx;height: 80rpx;}
+
+.order-btn navigator{font-size: 32rpx;color: #fff;text-align: center;width: 100%;height: 90rpx;line-height: 90rpx;background: #cc0011;}

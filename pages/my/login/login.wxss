@@ -1,0 +1,25 @@
+/* pages/my/login/login.wxss */
+page{background: #fff;}
+.close{width: 100%;padding: 0 24rpx;box-sizing: border-box;}
+.close image{width: 36rpx;height: 36rpx;float: left;margin-top: 24rpx;margin-bottom: 15rpx;}
+.logo{margin-top: 58rpx;text-align: center;width: 100%;margin-bottom: 180rpx;}
+.logo image{width: 230rpx;height: 76rpx;}
+
+.login-list{width: 100%;padding: 0 24rpx;box-sizing: border-box;}
+.login-inp{width: 100%;border-bottom: 1px solid #989898;display: inline-block;padding-bottom: 20rpx;margin-bottom: 60rpx;}
+.login-inp image{float: left;width: 34rpx;height: 40rpx;margin-left: 10rpx;margin-top: 5rpx;}
+.login-inp input{float: left;width: 590rpx;font-size: 32rpx;box-sizing: border-box;margin-left: 25rpx;}
+
+.login-btn{width: 100%;padding: 0 24rpx;box-sizing: border-box;}
+.login-btn navigator{width: 100%;text-align: center;color: #fff;font-size:34rpx;line-height: 90rpx;background: #cc0011;border-radius: 4px}
+
+.login-btn2{width: 100%;padding: 0 24rpx;box-sizing: border-box;margin-top: 40rpx;}
+.login-btn2 navigator:first-of-type{color: #4a90e2;font-size: 26rpx;float: left;}
+.login-btn2 navigator:last-of-type{color: #666;font-size: 26rpx;float: right;}
+
+.login-btn3{width: 100%;padding: 0 24rpx;box-sizing: border-box;margin-top: 190rpx;}
+.login-btn3 navigator{text-align: center;}
+.login-btn3 navigator image{width: 98rpx;height: 98rpx;}
+.login-btn3 navigator text{display: block;color: #999;font-size: 26rpx;}
+.login-btn3 navigator:first-of-type{float: left;margin-left: 100rpx;}
+.login-btn3 navigator:last-of-type{float: right;margin-right: 100rpx;}

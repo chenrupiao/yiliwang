@@ -1,0 +1,27 @@
+<!--pages/my2/business2/business2.wxml-->
+<view class="container">
+  <view class='business2-top'>
+    <navigator hover-class='none' class='business2-pic'>
+      <image src='/image/busy-tx.png'></image>
+      <image src='/image/busy-tx2.png'></image>
+    </navigator>
+    <text>上传店铺LOGO</text>
+  </view>
+  <view class='business-mid'>
+    <view class='business2-inp'>
+      <input type='text' placeholder='你的店铺名称'></input>
+    </view>
+    <view class='business2-inp'>
+      <input type='text' placeholder='描述下你的店铺'></input>
+    </view>
+  </view>
+  <view class='business2-btn'>
+    <navigator>立即开通</navigator>
+  </view>
+  <view class='business2-bottom'>
+    <navigator class='business-btn2' url='enter/enter'><text>实体商家入驻</text><image src='/image/youjt.png'></image></navigator>
+  </view>
+  <view class='business2-bottom2'>
+    <navigator class='business-btn2' url='enter/enter'><text>实体电商入驻</text><image src='/image/youjt.png'></image></navigator>
+  </view>
+</view>

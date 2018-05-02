@@ -1,0 +1,8 @@
+<!--pages/my2/personal_information/sex/sex.wxml-->
+<view class="container">
+  <view class='sex-content'>
+    <navigator class='active'>男<image src='/image/gou.png'></image></navigator>
+    <navigator>女<image src='/image/gou.png'></image></navigator>
+    <navigator>保密<image src='/image/gou.png'></image></navigator>
+  </view>
+</view>

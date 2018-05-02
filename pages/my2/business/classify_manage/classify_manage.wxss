@@ -1,0 +1,14 @@
+/* pages/my2/business/classify_manage/classify_manage.wxss */
+.classify-content{width: 100%;background: #fff;}
+.classify-list{width: 100%;}
+.classify-list-header.active image:first-of-type{display: none;}
+.classify-list-header.active image:last-of-type{display: block;}
+.classify-list-content.active{width: 100%;display: block;}
+.classify-list-header{width: 100%;box-sizing: border-box;padding: 0 24rpx;border-bottom: 1px solid #e6e6e6;height: 100rpx;line-height: 100rpx;}
+.classify-list-header text{float: left;font-size: 30rpx;color: #333;}
+.classify-list-header image{width: 27rpx;height: 15rpx;margin-top: 43rpx;float: right;}
+.classify-list-header image:first-of-type{display: block;}
+.classify-list-header image:last-of-type{display: none;}
+
+.classify-list-content{width: 100%;display: none;}
+.classify-list-content navigator{width: 100%;box-sizing: border-box;padding: 0 24rpx;border-bottom: 1px solid #e6e6e6;height: 90rpx;line-height: 90rpx;font-size: 28rpx;color: #666;}

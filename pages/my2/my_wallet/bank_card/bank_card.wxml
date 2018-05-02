@@ -1,0 +1,18 @@
+<!--pages/my2/my_wallet/bank_card/bank_card.wxml-->
+<view class="container">
+  <view class='bank-content'>
+    <view class='bank-list1'>
+      <navigator>
+        <image src='/image/yinhang-icon.png'></image>
+        <view class='bank-txt'>
+          <text>招商银行</text>
+          <text>**** **** **** 8888</text>
+        </view>
+        <text class='bank-super'>储蓄卡</text>
+      </navigator>
+    </view>
+    <view class='bank-btn'>
+      <navigator url='add_bank_card/add_bank_card'>+添加银行卡</navigator>
+    </view>
+  </view>
+</view>

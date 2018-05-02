@@ -1,0 +1,38 @@
+<!--pages/my2/order/after_sale/after_sale.wxml-->
+<view class="container">
+  <view class='order-list1'>
+    <view class='order-bt'>
+      服务类型<text>*</text>
+    </view>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class='nav-txt'>{{array[index]}}<image src='/image/xiajt.png'></image></view>
+    </picker>
+  </view>
+  <view class='order-list2'>
+    <view class='order-bt'>
+      退款金额<text>*</text>
+    </view>
+    <input type='text' placeholder='最多222.00'></input>
+  </view>
+  <view class='order-list2'>
+    <view class='order-bt'>
+      详细描述<text>*</text>
+    </view>
+    <textarea placeholder='请您在描述详细问题'></textarea>
+  </view>
+  <view class='order-list3'>
+    <view class='order-bt'>
+      详细描述<text>*</text>
+    </view>
+    <view class='order-pic'>
+      <navigator><image src='/image/paizhao.png'></image></navigator>
+      <navigator><image src='/image/pic1.png'></image><image src='/image/close.png' class='close'></image></navigator>
+    </view>
+    <view class='order-txt'>
+      <text>最多可上传5张照片，每张不超过5M，支持JPG、BMP、PNG</text>
+    </view>
+  </view>
+</view>
+<view class='order-btn'>
+  <navigator>提交申请</navigator>
+</view>

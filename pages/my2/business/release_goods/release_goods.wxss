@@ -1,0 +1,15 @@
+/* pages/my2/business/release_goods/release_goods.wxss */
+.release-goods-list1{width: 100%;}
+.release-goods-list2{width: 100%;margin-top: 20rpx;}
+.release-goods-list3{width: 100%;margin-top: 20rpx;margin-bottom: 150rpx;}
+.release-goods-pic{width: 100%;padding: 70rpx 0;text-align: center;}
+.release-goods-pic image{width: 140rpx;height: 140rpx;}
+.release-goods-inp{width: 100%;padding: 0 24rpx;box-sizing: border-box;border-bottom: 1px solid #e6e6e6;background: #fff;padding-top: 20rpx;}
+.release-goods-inp textarea{width: 100%;height: 120rpx;font-size: 30rpx;}
+.release-goods-btn{width: 100%;height: 100rpx;line-height: 100rpx;padding: 0 24rpx;box-sizing: border-box;background: #fff;border-bottom: 1px solid #e6e6e6;}
+.release-goods-btn navigator{font-size: 30rpx;color: #333;height: 100rpx;line-height: 100rpx;font-weight: bold;}
+.release-goods-btn{font-size: 30rpx;color: #333;height: 100rpx;line-height: 100rpx;font-weight: bold;}
+.release-goods-btn navigator image{float: right;width: 15rpx;height: 27rpx;margin-top: 37rpx;}
+.release-goods-btn input{float: right;font-size: 30rpx;height: 100rpx;line-height: 100rpx;width: 240rpx;text-align: right;font-weight: normal;}
+.release-goods-btn2{position: fixed;bottom: 0;left: 0;width: 100%;}
+.release-goods-btn2 navigator{width: 100%;background: #cc0011;font-size: 32rpx;line-height: 100rpx;text-align: center;color: #fff;}

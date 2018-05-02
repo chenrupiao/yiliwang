@@ -1,0 +1,30 @@
+<!--pages/my2/browse/browse.wxml-->
+<view class="container">
+  <view class="navbar page-section-spacing">
+    <navigator wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap" url='{{item.urls}}' open-type="redirect">{{item.txt}}</navigator>
+  </view>
+  <view class="child {{currentTab==2 ? 'active' : ''}}">
+    <view class='my-list3-content'>
+      <navigator>
+        <image src='/image/my-pic.png'></image>
+        <text>kaimeng 皮床 真皮床1.8米双人床 1.8*2.0米</text>
+        <text class='red'>￥1000.00</text>
+      </navigator>
+      <navigator>
+        <image src='/image/my-pic.png'></image>
+        <text>kaimeng 皮床 真皮床1.8米双人床 1.8*2.0米</text>
+        <text class='red'>￥1000.00</text>
+      </navigator>
+      <navigator>
+        <image src='/image/my-pic.png'></image>
+        <text>kaimeng 皮床 真皮床1.8米双人床 1.8*2.0米</text>
+        <text class='red'>￥1000.00</text>
+      </navigator>
+      <navigator>
+        <image src='/image/my-pic.png'></image>
+        <text>kaimeng 皮床 真皮床1.8米双人床 1.8*2.0米</text>
+        <text class='red'>￥1000.00</text>
+      </navigator>
+    </view>
+  </view>
+</view>

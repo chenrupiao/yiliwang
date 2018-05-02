@@ -1,0 +1,10 @@
+/* pages/my2/account_number/safety/check_code/check_code.wxss */
+.check-code-content{width: 100%;}
+.check-code-txt{width: 100%;box-sizing: border-box;padding: 0 24rpx;margin-top: 60rpx;margin-bottom: 30rpx;}
+.check-code-txt text{font-size: 26rpx;color: #7f7f7f;}
+.check-code-inp{width: 100%;background: #fff;padding: 0 24rpx;box-sizing: border-box;display: inline-block;}
+.check-code-inp text{font-size: 30rpx;color: #333;width: 125rpx;float: left;height: 100rpx;line-height: 100rpx;}
+.check-code-inp input{font-size: 30rpx;height: 100rpx;line-height: 100rpx;width: 370rpx;float: left;}
+.check-code-inp navigator{float: left;height: 100rpx;line-height: 100rpx;color: #2889ec;border-left: 1px solid #e6e6e6;font-size: 28rpx;padding-left: 20rpx;}
+.check-code-btn{width: 100%;box-sizing: border-box;padding: 0 24rpx;}
+.check-code-btn navigator{color: #fff;font-size: 32rpx;text-align: center;width: 100%;line-height: 90rpx;border-radius: 4px;background: #cc0011;margin-top: 100rpx;}

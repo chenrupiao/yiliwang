@@ -1,0 +1,24 @@
+<!--pages/my2/evaluate/evaluate.wxml-->
+<view class="container">
+  <view class='pay-list1'>
+    <view class='pay-list1-top'>
+      <image src='/image/pay-icon.png'></image>
+      <text>林氏家具旗舰店</text>
+      <text class='red'>交易成功</text>
+    </view>
+    <view class='pay-list1-mid'>
+      <navigator class='pay-list1-content'  url='evaluate_view/evaluate_view'>
+        <image src='/image/pay-pic.png'></image>
+        <view class='pay-list1-txt'>
+          <text>林氏木业1.8M现代双人床简约床头柜床垫组合卧室成套家具CP1A-A </text>
+        </view>
+      </navigator>
+      <view class='pay-list1-txt2'>
+        共一件商品<view>需付款：<text>￥2699.00</text></view>
+      </view>
+      <view class='pay-list1-btn'>
+        <navigator url='evaluate_view2/evaluate_view2'>评价晒单</navigator>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+/* pages/my2/shop/shop.wxss */
+.collection_pic{width: 160rpx;height: 160rpx;float: left;margin-left: 24rpx;border-radius: 4px}
+.collection_list_txt1{width: 340rpx;float: left;margin-left: 40rpx;}
+.collection_list_txt2{float: right;}
+.collection_list_txt1 text:first-of-type{font-size: 30rpx;color: #333;display: block;line-height: 42rpx;}
+.collection_list_txt1 .super{font-size: 24rpx;color: #666;padding-top: 20rpx;}
+.collection_list_txt1 .super view{color: #cc0011;display: inline-block;}
+.collection_list_txt2 text{font-size: 28rpx;color: #333;display: block;}
+.collection_list_btn navigator{position: absolute;bottom: 40rpx;right: 0;padding: 0 15rpx;height: 60rpx;line-height: 60rpx;border: 1px solid #cc0011;text-align: center;color: #cc0011;font-size: 24rpx;border-radius: 3px}
+
+.touch-item {font-size: 14px;display: flex;justify-content: space-between;border-bottom:1px solid #e6e6e6;width: 100%;overflow: hidden;box-sizing: border-box;}
+.content {width: 100%;padding: 40rpx 0;margin-right:0;-webkit-transition: all 0.4s;transition: all 0.4s;-webkit-transform: translateX(150rpx);transform: translateX(150rpx);margin-left: -150rpx;box-sizing: border-box;position: relative;}
+.del {background-color: #cc0011;width: 150rpx;display: flex;flex-direction: column;align-items: center;justify-content: center;color: #fff;-webkit-transform: translateX(150rpx);transform: translateX(150rpx);-webkit-transition: all 0.4s;transition: all 0.4s;font-size: 28rpx;margin-left: 24rpx;}
+.touch-move-active .content,.touch-move-active .del {-webkit-transform: translateX(0);transform: translateX(0);}
+
+.container {align-items:stretch;}
+.navbar{flex: none;display: flex;background: #fff; padding:0 10px;border-bottom:1px solid #e6e6e6;}  
+.navbar .item{position: relative;line-height: 40px;display:flex;font-size:30rpx;margin:0 auto;color: #333;}  
+.navbar .item.active{color: #cc0011;}  
+.navbar .item.active:after{content: "";display: block;position: absolute;bottom: 0;left: 0;right: 0;height: 2px;background: #cc0011;} 
+
+.child{display: none;width: 100%;box-sizing: border-box;background: #fff;}
+.child.active{display: block;}

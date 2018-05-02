@@ -1,0 +1,11 @@
+<!--pages/index/entity_mall/map/map.wxml-->
+<view class="container">
+  <map
+    style="width: 100%; height: 100%;"
+    latitude="{{latitude}}"
+    longitude="{{longitude}}"
+    markers="{{markers}}"
+    covers="{{covers}}"
+    >
+  </map>
+</view>

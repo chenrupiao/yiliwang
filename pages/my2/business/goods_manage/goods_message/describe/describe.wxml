@@ -1,0 +1,7 @@
+<!--pages/my2/business/goods_manage/goods_message/describe/describe.wxml-->
+<view class="container">
+  <view class='describe-content'>
+    <textarea placeholder='请详细描述你要发布的商品，让商品看起来更诱人'></textarea>
+  </view>
+  <view class='describe-btn'><navigator>完成</navigator></view>
+</view>

@@ -1,0 +1,45 @@
+<!--pages/my2/business/goods_manage/goods_message/goods_message.wxml-->
+<view class="container">
+  <view class='goods-message-list'>
+    <view class='goods-message-banner'>
+      <image src='/image/banner4.png' mode='widthFix'></image>
+    </view>
+    <view class='goods-message-content'>
+      <textarea value="{{info}}" maxlength="{{noteMaxLen}}" placeholder='kaimeng 皮床 时尚榻榻米 储物软床皮床双人床 简约皮床婚床' bindinput="bindTextAreaChange"></textarea>
+      <view class='fr'>{{noteNowLen}}/{{noteMaxLen}}</view>
+    </view>
+    <view class='goods-message-inp'>
+      <text>商品分类</text>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class='goods-message-txt'>{{array[index]}}<image src='/image/pt-icon1.png'></image></view>
+      </picker>
+    </view>
+  </view>
+  <view class='goods-message-list2'>
+    <view class='goods-message-inp'>
+      <text>品牌</text>
+      <input type='text' placeholder='红星美凯龙'></input>
+    </view>
+    <view class='goods-message-inp'>
+      <text>价格</text>
+      <input type='text' placeholder='1200.00￥'></input>
+    </view>
+    <view class='goods-message-inp'>
+      <text>数量</text>
+      <input type='text' placeholder='120'></input>
+    </view>
+    <view class='goods-message-inp'>
+      <text>运费</text>
+      <input type='text' placeholder='12.0￥'></input>
+    </view>
+  </view>
+  <view class='goods-message-list3'>
+    <navigator class='goods-message-inp' url='describe/describe'>
+      <text>商品描述</text>
+      <image src='/image/pt-icon1.png'></image>
+    </navigator>
+  </view>
+</view>
+<view class='goods-message-btn'>
+  <navigator>确认修改</navigator>
+</view>

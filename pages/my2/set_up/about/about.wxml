@@ -1,0 +1,9 @@
+<!--pages/my2/set_up/about/about.wxml-->
+<view class="container">
+  <view class='about-content'>
+    <view class='logo2'><image src='/image/logo2.png' class='logo2'></image></view>
+    
+    <textarea></textarea>
+  </view>
+  <view class='about-bottom'><text>蚁立elichina.com  版权所有</text></view>
+</view>

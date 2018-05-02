@@ -1,0 +1,6 @@
+/* pages/my2/evaluate/evaluate_view2/evaluate_view2_success/evaluate_view2_success.wxss */
+.su-content{background: #fff;padding: 0 24rpx;box-sizing: border-box;width: 100%;border-bottom: 1px solid #e6e6e6;padding-bottom: 110rpx;padding-top: 80rpx;}
+.su-content image{float: left;width: 120rpx;height: 120rpx;margin-left: 110rpx;}
+.su-txt{float: left;margin-left: 60rpx;}
+.su-txt text:first-of-type{font-size: 34rpx;color: #333;padding-top: 20rpx;display: block;}
+.su-txt text:nth-of-type(2){font-size: 24rpx;color: #999;padding-top: 20rpx;display: block;}

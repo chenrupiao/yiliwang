@@ -1,0 +1,12 @@
+/* pages/my/register3/register3.wxss */
+page{background: #f2f2f2}
+.re3-inp{box-sizing: border-box;padding: 0 24rpx;width: 100%;background: #fff;border-top: 1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;line-height: 100rpx;height: 100rpx;margin-top: 90rpx;}
+.re3-inp text{font-size: 32rpx;color: #333;float: left;}
+.re3-inp input{font-size: 32rpx;margin-left: 35rpx;float: left;margin-top: 24rpx;width: 500rpx;}
+
+.re3-inp2{box-sizing: border-box;padding: 0 24rpx;width: 100%;background: #fff;border-top: 1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;line-height: 100rpx;height: 100rpx;margin-top: 30rpx;}
+.re3-inp2 text{font-size: 32rpx;color: #333;float: left;}
+.re3-inp2 input{font-size: 32rpx;margin-left: 35rpx;float: left;margin-top: 24rpx;width: 500rpx;}
+
+.re3-btn{padding: 0 40rpx;box-sizing: border-box;width: 100%;margin-top: 105rpx;}
+.re3-btn navigator{background: #cc0011;color: #fff;text-align: center;line-height: 90rpx;font-size: 34rpx;border-radius: 4px;}

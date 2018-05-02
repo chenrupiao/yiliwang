@@ -1,0 +1,177 @@
+<!--pages/goods_view/goods_view.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="true" indicator-color="#fff" indicator-active-color="#cc0011" autoplay="true" interval="5000" duration="500" circular="true" style="height:{{imgheights}}px;">
+        <block wx:for="{{imgUrls}}" wx:key="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" mode='widthFix'/>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+  <view class='goods-view-list'>
+    <text>卡琪亚 沙发 布艺沙发客厅组合 小户型皮布软床 皮艺软床 三人位+贵妃(2.0米)</text>
+    <text>￥2490.00</text>
+  </view>
+  <view class='goods-view-list2'>
+    <text>已选</text>
+    <text>床，框架床(1800mm*2000mm),1个</text>
+    <navigator>
+      <icon></icon>
+      <icon></icon>
+      <icon></icon>
+    </navigator>
+  </view>
+  <view class='goods-view-list3'>
+    <text>送至</text>
+    <view><image src='/image/gv-icon.png'></image>浙江 杭州市 江干区 城区</view>
+    <navigator>
+      <icon></icon>
+      <icon></icon>
+      <icon></icon>
+    </navigator>
+  </view>
+  <view class='goods-view-list4'>
+    <view class='goods-view-bt'>
+      <text class='goods-view-fl'>评价(20)</text>
+      <view class='goods-view-txt'>
+        好评度
+        <text>99%</text>
+        <image src='/image/pt-icon1.png'></image>
+      </view>
+    </view>
+    <view class='gv-list4-content'>
+      <view class='gv-list4-bt'>
+        <image src='/image/pic1.png'></image>
+        <text>jc****01</text>
+        <text>2016-10-10</text>
+      </view>
+      <view class='gv-list4-txt'>
+        <text>产品用过之后感觉挺好的。。。</text>
+      </view>
+      <view class='gv-list4-pic'>
+        <image src='/image/pic1.png'></image>
+      </view>
+      <view class='gv-list4-icon'>
+        <image src='/image/pinglun.png'></image>
+        <text>0</text>
+      </view>
+    </view>
+    <view class='gv-list4-content'>
+      <view class='gv-list4-bt'>
+        <image src='/image/pic1.png'></image>
+        <text>jc****01</text>
+        <text>2016-10-10</text>
+      </view>
+      <view class='gv-list4-txt'>
+        <text>产品用过之后感觉挺好的。。。产品用过之后感觉挺好的。。。产品用过之后感觉挺好的。。。产品用过之后感觉挺好的。。。</text>
+      </view>
+      <view class='gv-list4-pic'>
+        <image src='/image/pic1.png'></image>
+      </view>
+      <view class='gv-list4-icon'>
+        <image src='/image/pinglun.png'></image>
+        <text>0</text>
+      </view>
+    </view>
+  </view>
+  <view class='goods-view-list5'>
+    <view class='goods-view-bt2'>
+      <image src='/image/logo3.png' mode='widthFix'></image>
+      <text>林氏家具旗舰店</text>
+    </view>
+    <view class='gv-list5-content'>
+      <view class='gv-list5-list'>
+        <text class='one'>60</text>
+        <text class='two'>全部宝贝</text>
+      </view>
+      <view class='gv-list5-list'>
+        <text class='one'>60</text>
+        <text class='two'>关注人数</text>
+      </view>
+      <view class='gv-list5-list'>
+        <view>商品评价<text>9.8</text></view>
+        <view>服务态度<text>9.8</text></view>
+        <view>物流速度<text>9.8</text></view>
+      </view>
+    </view>
+    <view class='gv-list5-btn'>
+      <view>
+        <navigator>查看分类</navigator>
+        <navigator>进店逛逛</navigator>
+      </view>
+    </view>
+  </view>
+  <view class='goods-view-list6'>
+    <navigator url='image_txt_view/image_txt_view' hover-class='none'>
+      <image src='/image/shangjt.png'></image>
+      <text>上拉查看图文详情</text>
+    </navigator>
+  </view>
+</view>
+<view class="bottom-nav">
+  <navigator open-type="switchTab" url=''>
+    <image src="/image/vf-icon1.png"></image>
+    <text>客服</text>
+  </navigator>
+  <navigator>
+    <image src='/image/vf-icon3.png'></image>
+    <text>店铺</text>
+  </navigator>
+  <navigator url='' bindtap='guanzhu' class='{{Class}}'>
+    <image src='{{imgurl}}'></image>
+    <text>{{text}}</text>
+  </navigator>
+  <navigator class='active' bindtap='open'>
+    <text>加入购物车</text>
+  </navigator>
+  <navigator class='active2' bindtap='open'>
+    <text>立即购买</text>
+  </navigator>
+</view>
+<view class='footer-dc'>
+  <view class='black {{close}}' bindtap='close'></view>
+  <view class='dc-content {{close2}}'>
+    <view class='dc-content2'>
+      <view class='dc-bt'>
+        <view class='bt-pic'><image src='/image/pic1.png'></image></view>
+        <view class='bt-txt'>
+          <text>冬季宝宝加绒拉条运动裤 </text>
+          <text>¥38.00</text>
+        </view>
+        <view class='close' bindtap='close'><image src='/image/x.png'></image></view>
+      </view>
+      <view class='dc-list1'>
+        <view class='dc-list1-bt'>规格</view>
+        <view class='dc-list1-content'>
+          <navigator>框架床(1500mm*2000mm)</navigator>
+          <navigator>框架床(1500mm*2000mm)</navigator>
+          <navigator>框架床(1500mm*2000mm)</navigator>
+          <navigator>框架床(1500mm*2000mm)</navigator>
+        </view>
+      </view>
+      <view class='dc-list1'>
+        <view class='dc-list1-bt'>颜色</view>
+        <view class='dc-list1-content'>
+          <navigator>黑色</navigator>
+          <navigator>黑色</navigator>
+          <navigator>黑色</navigator>
+          <navigator>黑色</navigator>
+          <navigator>黑色</navigator>
+          <navigator>黑色</navigator>
+        </view>
+      </view>
+      <view class='dc-list1'>
+        <view class='dc-list1-bt'>数量</view>
+        <view class='dc-list1-btn'>
+          <button disabled='{{disabled}}' bindtap='buttonchange'>-</button>
+          <text>{{value}}</text>
+          <button disabled='{{disabled2}}' bindtap='buttonchange2'>+</button>
+        </view>
+      </view>
+      <button class='super'>确定</button>
+    </view>
+  </view>
+</view>

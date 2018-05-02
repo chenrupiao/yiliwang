@@ -1,0 +1,24 @@
+<!--pages/my2/business/release_goods/release_goods.wxml-->
+<view class="container">
+  <view class='release-goods-list1'>
+    <view class='release-goods-pic'><image src='/image/busy-icon9.png'></image></view>
+    <view class='release-goods-inp'>
+      <textarea  placeholder='请输入商品标题'></textarea>
+    </view>
+    <view class='release-goods-btn'>
+      <navigator>商品分类<image src='/image/pt-icon1.png'></image></navigator>
+    </view>
+  </view>
+  <view class='release-goods-list2'>
+    <view class='release-goods-btn'>品牌</view>
+    <view class='release-goods-btn'>价格<input type='text' placeholder='￥'></input></view>
+    <view class='release-goods-btn'>数量</view>
+    <view class='release-goods-btn'>运费<input type='text' placeholder='￥'></input></view>
+  </view>
+  <view class='release-goods-list3'>
+    <view class='release-goods-btn'>
+      <navigator>商品描述<image src='/image/pt-icon1.png'></image></navigator>
+    </view>
+  </view>
+</view>
+<view class='release-goods-btn2'><navigator>立即发布</navigator></view>

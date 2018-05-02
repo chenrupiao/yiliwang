@@ -1,0 +1,110 @@
+<!--pages/my2/my_wallet/my_coupon/my_coupon.wxml-->
+<view class="container">
+  <view class="navbar page-section-spacing">
+    <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+  </view>
+  <view class="child {{currentTab==0 ? 'active' : ''}}">
+    <view class='coupon-list'>
+      <image src='/image/cou-pic4.png' class='bg' mode='widthFix'></image>
+      <view class='coupon-fl'>
+        <image src='/image/cou-pic1.png'></image>
+        <view class='coupon-txt'>
+          <view>￥<text>100</text></view>
+          <text class='small'>满2000.0元可用</text>
+        </view>
+      </view>
+      <view class='coupon-content'>
+        <view class='coupon-txt2'>
+          <text>全品类（特定商品除外）</text>
+        </view>
+        <view class='coupon-txt3'>
+          <text>2016.11.11-2016.11.18</text>
+          <navigator>立即使用</navigator>
+        </view>
+      </view>
+    </view>
+    <view class='coupon-list'>
+      <image src='/image/cou-pic4.png' class='bg' mode='widthFix'></image>
+      <view class='coupon-fl'>
+        <image src='/image/cou-pic1.png'></image>
+        <view class='coupon-txt'>
+          <view>￥<text>100</text></view>
+          <text class='small'>满2000.0元可用</text>
+        </view>
+      </view>
+      <view class='coupon-content'>
+        <view class='coupon-txt2'>
+          <text>全品类（特定商品除外）</text>
+        </view>
+        <view class='coupon-txt3'>
+          <text>2016.11.11-2016.11.18</text>
+          <navigator>立即使用</navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="child {{currentTab==1 ? 'active' : ''}}">
+    <view class='coupon-list'>
+      <image src='/image/cou-pic4.png' class='bg' mode='widthFix'></image>
+      <view class='coupon-fl'>
+        <image src='/image/cou-pic2.png'></image>
+        <view class='coupon-txt'>
+          <view>￥<text>100</text></view>
+          <text class='small'>满2000.0元可用</text>
+        </view>
+      </view>
+      <view class='coupon-content'>
+        <view class='coupon-txt2'>
+          <text>全品类（特定商品除外）</text>
+        </view>
+        <view class='coupon-txt3'>
+          <text>2016.11.11-2016.11.18</text>
+          
+        </view>
+      </view>
+      <image src='/image/cou-pic3.png' class='icon'></image>
+    </view>
+  </view>
+  <view class="child {{currentTab==2 ? 'active' : ''}}">
+    <view class='coupon-list'>
+      <image src='/image/cou-pic4.png' class='bg' mode='widthFix'></image>
+      <view class='coupon-fl'>
+        <image src='/image/cou-pic2.png'></image>
+        <view class='coupon-txt'>
+          <view>￥<text>100</text></view>
+          <text class='small'>满2000.0元可用</text>
+        </view>
+      </view>
+      <view class='coupon-content'>
+        <view class='coupon-txt2'>
+          <text>全品类（特定商品除外）</text>
+        </view>
+        <view class='coupon-txt3'>
+          <text>2016.11.11-2016.11.18</text>
+          
+        </view>
+      </view>
+
+    </view>
+    <view class='coupon-list'>
+      <image src='/image/cou-pic4.png' class='bg' mode='widthFix'></image>
+      <view class='coupon-fl'>
+        <image src='/image/cou-pic2.png'></image>
+        <view class='coupon-txt'>
+          <view>￥<text>100</text></view>
+          <text class='small'>满2000.0元可用</text>
+        </view>
+      </view>
+      <view class='coupon-content'>
+        <view class='coupon-txt2'>
+          <text>全品类（特定商品除外）</text>
+        </view>
+        <view class='coupon-txt3'>
+          <text>2016.11.11-2016.11.18</text>
+          
+        </view>
+      </view>
+
+    </view>
+  </view>
+</view>

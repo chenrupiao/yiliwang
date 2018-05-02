@@ -1,0 +1,67 @@
+<!--pages/my2/order/order.wxml-->
+<view class="container">
+  <view class='pay-list1'>
+    <view class='pay-list1-top'>
+      <image src='/image/pay-icon.png'></image>
+      <text>林氏家具旗舰店</text>
+      <text class='red'>等待付款</text>
+    </view>
+    <view class='pay-list1-mid'>
+      <navigator class='pay-list1-content' url='after_sale/after_sale'>
+        <image src='/image/pay-pic.png'></image>
+        <view class='pay-list1-txt'>
+          <text>林氏木业1.8M现代双人床简约床头柜床垫组合卧室成套家具CP1A-A </text>
+        </view>
+      </navigator>
+      <view class='pay-list1-txt2'>
+        共一件商品<view>需付款：<text>￥2699.00</text></view>
+      </view>
+      <view class='pay-list1-btn'>
+        <navigator>去支付</navigator>
+      </view>
+    </view>
+  </view>
+  <view class='pay-list1'>
+    <view class='pay-list1-top'>
+      <image src='/image/pay-icon.png'></image>
+      <text>林氏家具旗舰店</text>
+      <view class='red'>已完成<image src='/image/pay-icon3.png'></image></view>
+    </view>
+    <view class='pay-list1-mid'>
+      <navigator class='pay-list1-content' url='take_over_view/take_over_view'>
+        <image src='/image/pay-pic.png'></image>
+        <view class='pay-list1-txt'>
+          <text>林氏木业1.8M现代双人床简约床头柜床垫组合卧室成套家具CP1A-A </text>
+        </view>
+      </navigator>
+      <view class='pay-list1-txt2'>
+        共一件商品<view>需付款：<text>￥2699.00</text></view>
+      </view>
+      <view class='pay-list1-btn'>
+        <navigator>再次购买</navigator>
+        <navigator>评价晒单</navigator>
+      </view>
+    </view>
+  </view>
+  <view class='pay-list1'>
+    <view class='pay-list1-top'>
+      <image src='/image/pay-icon.png'></image>
+      <text>林氏家具旗舰店</text>
+      <view class='gray'>已取消<image src='/image/pay-icon3.png'></image></view>
+    </view>
+    <view class='pay-list1-mid'>
+      <navigator class='pay-list1-content' url='take_over_view/take_over_view'>
+        <image src='/image/pay-pic.png'></image>
+        <view class='pay-list1-txt'>
+          <text>林氏木业1.8M现代双人床简约床头柜床垫组合卧室成套家具CP1A-A </text>
+        </view>
+      </navigator>
+      <view class='pay-list1-txt2'>
+        共一件商品<view>需付款：<text>￥2699.00</text></view>
+      </view>
+      <view class='pay-list1-btn'>
+        <navigator>再次购买</navigator>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+/* pages/my2/my_wallet/bank_card/add_bank_card/add_bank_card.wxss */
+.nav-txt{font-size: 30rpx;color: #333;width: 100%;height: 90rpx;line-height: 90rpx;box-sizing: border-box;padding: 0 20rpx;border: 1px solid #d8d8d8;border-radius: 4px;background: #fff;}
+.nav-txt image{width: 27rpx;height: 15rpx;float: right;margin-top: 37rpx;}
+.add-bank-content{width: 100%;padding: 0 24rpx;box-sizing: border-box;}
+.add-bank-content picker{width: 100%;margin-top: 30rpx;}
+.add-bank-content input{height: 90rpx;line-height: 90rpx;font-size: 30rpx;color: #333;width: 100%;box-sizing: border-box;padding: 0 20rpx;border-radius: 4px;background: #fff;border:1px solid #d8d8d8;margin-top: 30rpx}
+.add-bank-content text{padding-top: 30rpx;color: #cc0011;font-size: 24rpx;display: block;}

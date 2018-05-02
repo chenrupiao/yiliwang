@@ -1,0 +1,7 @@
+<!--pages/my2/my_wallet/remaining_sum/remaining_sum.wxml-->
+<view class="container">
+  <view class='sum-content'>
+    <text>可用余额</text>
+    <text>￥20.00</text>
+  </view>
+</view>

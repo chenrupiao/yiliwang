@@ -1,0 +1,9 @@
+/* pages/my2/business/goods_set_up/goods_set_up.wxss */
+.goods-set-up{width: 100%;padding: 0 24rpx;box-sizing: border-box;background: #fff;}
+.goods-set-up navigator{padding: 25rpx 0;border-bottom: 1px solid #e6e6e6;width: 100%;display: flex;align-items: center;}
+.goods-set-up navigator text{font-size: 30rpx;color: #333;font-weight: bold;flex: 1}
+.goods-set-up-list{align-items: center;display: flex;}
+.goods-set-up-list text{font-size: 28rpx;color: #b2b2b2 !important;font-weight: normal !important;}
+.goods-set-up-list .tx{width: 120rpx;height: 120rpx;border-radius: 50%;}
+.goods-set-up-list .zp{width: 150rpx;height: 60rpx;}
+.goods-set-up-list .jt{width: 15rpx;height: 27rpx;float: right;margin-left: 20rpx;}

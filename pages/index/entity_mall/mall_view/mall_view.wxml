@@ -1,0 +1,30 @@
+<!--pages/index/entity_mall/mall_view/mall_view.wxml-->
+<view class="container">
+  <view class='mall-top-txt'>
+    <image src='/image/logo4.png' class='mall-logo'></image>
+    <text class='mall-txt'>国际家具大卖场</text>
+    <navigator>
+      <image src='/image/aixin.png'></image>
+      <text>关注</text>
+    </navigator>
+  </view>
+  <view class='mall-view'>
+    <navigator>
+      <text>联系商场</text>
+      <image src='/image/my2-icon4.png'></image>
+    </navigator>
+    <navigator>
+      <text>商家电话</text>
+      <text>0571-88888888 / 15067161666</text>
+      <image src='/image/mall-icon3.png'></image>
+    </navigator>
+    <navigator>
+      <text>工作时间</text>
+      <text>周一至周五   9:00-24:00\n周六至周日   9:00-23:00</text>
+    </navigator>
+    <navigator>
+      <text>所在地址</text>
+      <text>浙江省 杭州市 江干区 下沙街道 文创大厦12楼</text>
+    </navigator>
+  </view>
+</view>

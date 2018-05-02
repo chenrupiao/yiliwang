@@ -1,0 +1,19 @@
+<!--pages/my/register/register.wxml-->
+<view class="container">
+  <view class='re-inp1'>
+    <text>手机号</text>
+    <input type='text' placeholder='请输入手机号'></input>
+  </view>
+  <view class='re-inp2'>
+    <input type='text' placeholder='请输入图片验证码'></input>
+    <navigator><image src='/image/yanzhengma.png'></image></navigator>
+  </view>
+  <radio-group class="re-radio">
+    <radio class="re-radio2" color='#cc0011'>同意<navigator>蚁立网用户注册协议</navigator></radio>
+  </radio-group>
+  <view class='re-btn'><navigator url='../register2/register2'>下一步</navigator></view>
+  <view class='re-btn2'>
+    <navigator>联系客服</navigator>
+    <view><text>已有账号？</text><navigator url='../login/login'>登录</navigator></view>
+  </view>
+</view>

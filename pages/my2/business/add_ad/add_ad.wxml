@@ -1,0 +1,21 @@
+<!--pages/my2/business/add_ad/add_ad.wxml-->
+<view class="container">
+  <view class='ad-bt'>
+    <text>首页轮播广告</text>
+  </view>
+  <view class="touch-item {{item.isTouchMove ? 'touch-move-active' : ''}}" data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove"  wx:key="{{index}}" wx:for="{{items}}">
+    <navigator class="content" url='{{item.url}}'>
+      <image src='{{item.src}}' class='ad-pic'></image>
+    </navigator>
+    <view class="del" catchtap="del" data-index="{{index}}">删除</view>
+  </view>
+  <view class='ad-pic2'>
+    <image src='/image/xj.png'></image>
+  </view>
+  <view class='ad-bt2'>
+    <text>页面底部广告</text>
+  </view>
+  <view class='ad-pic2'>
+    <image src='/image/xj.png'></image>
+  </view>
+</view>

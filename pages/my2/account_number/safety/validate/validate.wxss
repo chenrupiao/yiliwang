@@ -1,0 +1,8 @@
+/* pages/my2/account_number/safety/validate/validate.wxss */
+.validate-top{width: 100%;background: #fff;text-align: center;padding-top: 85rpx;padding-bottom: 105rpx;border-bottom: 1px solid #e6e6e6;}
+.validate-top text{display: block;font-size: 28rpx;color: #333;}
+.validate-top text:nth-of-type(2){padding-top: 25rpx;}
+.validate-btn{margin-top: 40rpx;box-sizing: border-box;width: 100%;padding: 0 24rpx;}
+.validate-btn navigator{width: 100%;box-sizing: border-box;background: #cc0011;color: #fff;text-align: center;line-height: 90rpx;border-radius: 4px;font-size: 32rpx;}
+.validate-txt{box-sizing: border-box;width: 100%;padding: 0 24rpx;}
+.validate-txt text{line-height: 80rpx;font-size: 26rpx;color: #999;}

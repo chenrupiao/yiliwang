@@ -1,0 +1,26 @@
+/* pages/my2/take_over/logistics/logistics.wxss */
+page{background: #f2f2f2;}
+.log-top{background: #fff;width: 100%;height: 180rpx;box-sizing: border-box;padding:0 24rpx;border-bottom: 1px solid #e6e6e6;}
+.log-top image{float: left;width: 120rpx;height: 120rpx;margin-top: 30rpx;}
+.log-txt{float: left;margin-top: 30rpx;margin-left: 30rpx;}
+.log-txt .one{font-size: 28rpx;color: #333;}
+.log-txt .one text{color: #3cbc78;font-size: 28rpx;display: inline-block;}
+.log-txt text{font-size: 26rpx;color: #999;display: block;}
+.log-txt .two{font-size: 26rpx;color: #999;}
+.log-txt .two text{color: #54b0e5;font-size: 26rpx;display: inline-block;}
+
+.content{width: 100%;background: #fff;padding: 0 24rpx;box-sizing: border-box;}
+.content-fl{float: left;margin: 20rpx 0;}
+.content-fl view{display: block;}
+.yuan1{width: 32rpx;height: 32rpx;border-radius: 50%;box-sizing: border-box;background: #3cbc78;border: 2px solid #b0e2c7;}
+.xian{width: 1px;height: 110rpx;background: #d8d8d8;margin-left: 15rpx;}
+.yuan2{width: 15rpx;height: 15rpx;box-sizing: border-box;border-radius: 50%;background: #d8d8d8;margin-left: 9rpx;}
+.content-fr{width: 90%;float: right;}
+.item{height: 110rpx;}
+.item.active text{color:#3cbc78;}
+.item text{color: #999;font-size: 28rpx;display: block;}
+.item text:first-of-type{margin-top: 17rpx;}
+.item text:nth-of-type(2){margin-top: 16rpx;}
+
+.log-bt{width: 100%;background: #fff;padding: 0 24rpx;box-sizing: border-box;margin-top: 20rpx;height: 90rpx;line-height: 90rpx;}
+.log-bt text{font-size: 26rpx;color: #333;}

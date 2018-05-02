@@ -1,0 +1,8 @@
+/* pages/my2/account_number/real_name/real_name.wxss */
+.real-name-list1{width: 100%;background: #fff;margin-top: 30rpx;}
+.real-name-inp{width: 100%;box-sizing: border-box;padding: 0 24rpx;border-bottom: 1px solid #e6e6e6;height: 100rpx;line-height: 100rpx;}
+.real-name-inp text{font-size: 30rpx;color: #333;float: left;width: 150rpx;}
+.real-name-inp input{width: 500rpx;float: left;font-size: 30rpx;height: 100rpx;line-height: 100rpx;}
+.real-name-txt text{font-size: 24rpx;color: #999;line-height: 60rpx;width: 100%;box-sizing: border-box;padding: 0 24rpx;background: #f2f2f2;display: inline-block;}
+.real-name-btn{width: 100%;box-sizing: border-box;padding: 0 24rpx;margin-top: 40rpx;}
+.real-name-btn button{width: 100%;background: #cc0011;font-size: 32rpx;color: #fff;text-align: center;height: 90rpx;line-height: 90rpx;}

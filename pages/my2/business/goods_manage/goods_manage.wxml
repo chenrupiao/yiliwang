@@ -1,0 +1,13 @@
+<!--pages/my2/business/goods_manage/goods_manage.wxml-->
+<view class="container">
+  <view class="touch-item {{item.isTouchMove ? 'touch-move-active' : ''}}" data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove"  wx:key="{{index}}" wx:for="{{items}}">
+    <navigator class="content" url='{{item.url}}'>
+      <image src='{{item.src}}' class='collection_pic'></image>
+      <view class='collection_list_txt1'>
+        <text>{{item.bt}}</text>
+        <view class='super'>{{item.pf}}</view>
+      </view>
+    </navigator>
+    <view class="del" catchtap="del" data-index="{{index}}">删除</view>
+  </view>
+</view>

@@ -1,0 +1,46 @@
+<!--pages/my2/business/goods_set_up/goods_address/goods_address.wxml-->
+<view class="container">
+  <radio-group>
+    <view class='address-list'>
+      <view class='address-list-txt'>
+        <text>小小零</text>
+        <text>180****0000</text>
+      </view>
+      <view class='address-list-txt2'>
+        <text>浙江 杭州市 江干区 下沙街道文创大厦1101号</text>
+      </view>
+      <radio color='#cc0011'>默认地址</radio>
+      <view class='address-btn'>
+        <navigator>
+          <image src='/image/pay-icon4.png'></image>
+          <text>编辑</text>
+        </navigator>
+        <navigator>
+          <image src='/image/pay-icon3.png'></image>
+          <text>删除</text>
+        </navigator>
+      </view>
+    </view>
+    <view class='address-list'>
+      <view class='address-list-txt'>
+        <text>小小零</text>
+        <text>180****0000</text>
+      </view>
+      <view class='address-list-txt2'>
+        <text>浙江 杭州市 江干区 下沙街道文创大厦1101号</text>
+      </view>
+      <radio color='#cc0011'>默认地址</radio>
+      <view class='address-btn'>
+        <navigator>
+          <image src='/image/pay-icon4.png'></image>
+          <text>编辑</text>
+        </navigator>
+        <navigator>
+          <image src='/image/pay-icon3.png'></image>
+          <text>删除</text>
+        </navigator>
+      </view>
+    </view>
+    <view class='address-btn2'><navigator url='goods_add_address/goods_add_address'>+新增地址</navigator></view>
+  </radio-group>
+</view>

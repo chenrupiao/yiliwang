@@ -1,0 +1,5 @@
+/* pages/my2/business/goods_set_up/goods_introduce/goods_introduce.wxss */
+.goods-introduce-top{width: 100%;box-sizing: border-box;padding: 0 24rpx;background: #fff;}
+.goods-introduce-top textarea{width: 100%;font-size: 32rpx;color: #333;height: 400rpx;padding: 25rpx 0;box-sizing: border-box;}
+.goods-introduce-btn{width: 100%;box-sizing: border-box;padding: 0 24rpx;margin-top: 200rpx;}
+.goods-introduce-btn button{width: 100%;border: none;background: #cc0011;color: #fff;font-size: 32rpx;text-align: center;line-height: 90rpx;height: 90rpx;}

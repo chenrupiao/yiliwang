@@ -1,0 +1,16 @@
+/* pages/my2/business/business.wxss */
+.business-top{width: 100%;position: relative;}
+.business-top-bg{width: 100%;}
+.business-top-bg image{width: 750rpx;height: 350rpx;}
+.business-top-content{position: absolute;z-index: 1;width: 100%;text-align: center;margin-top: 75rpx;top: 0;left: 0;}
+.business-top-content text{padding-top: 20rpx;font-size: 28rpx;color: #fff;display: block;}
+.business-top-pic{width: 124rpx;height: 124rpx;background: #ccc;border-radius: 50%;text-align: center;margin: 0 auto;}
+.business-top-pic image{width: 118rpx;height: 118rpx;border-radius: 50%;margin-top: 2px;}
+
+.business-banner{width: 100%;margin-top: 20rpx;}
+.business-banner image{width: 100%;}
+
+.business-list1{width: 100%;background: #fff;display: inline-block;margin-top: 20rpx;}
+.business-list1 navigator{width: 25%;text-align: center;float: left;padding: 45rpx 0;}
+.business-list1 navigator image{width: 120rpx;height: 120rpx;}
+.business-list1 navigator text{padding-top: 16rpx;font-size: 24rpx;color: #333;display: block;}

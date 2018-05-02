@@ -1,0 +1,6 @@
+/* pages/my2/business/goods_manage/goods_message/describe/describe.wxss */
+page{height: 100%;}
+.describe-content{width: 100%;background: #fff;height: 100%;}
+.describe-content textarea{width: 100%;height: 100%;box-sizing: border-box;padding: 0 24rpx;font-size: 28rpx;padding-top: 25rpx;padding-bottom: 90rpx;display: inline-block;}
+.describe-btn{width: 100%;position: fixed;bottom: 0;left: 0}
+.describe-btn navigator{width: 100%;background: #cc0011;color: #fff;font-size: 32rpx;text-align: center;line-height: 90rpx;}

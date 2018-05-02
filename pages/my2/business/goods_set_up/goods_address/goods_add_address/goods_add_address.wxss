@@ -1,0 +1,9 @@
+/* pages/my2/business/goods_set_up/goods_address/goods_add_address/goods_add_address.wxss */
+.add-address-content{width: 100%;box-sizing: border-box;padding: 0 24rpx;background: #fff;}
+.add-address-list{width: 100%;padding: 25rpx 0;border-bottom: 1px solid #e6e6e6;display: inline-block;}
+.add-address-list text{font-size: 30rpx;color: #333;float: left;width: 150rpx;line-height: 52rpx;}
+.add-address-list input{font-size: 30rpx;width: 550rpx;float: left;}
+.add-address-list image{width: 15rpx;height: 27rpx;margin-top: 1rpx;float: right;}
+.add-address-list textarea{width: 550rpx;height: 140rpx;float: left;}
+.add-address-btn{width: 100%;padding: 0 40rpx;box-sizing: border-box;margin-top: 135rpx;}
+.add-address-btn button{width: 100%;background: #cc0011;border:none;color: #fff;line-height: 90rpx;text-align: center;}

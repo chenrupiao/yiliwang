@@ -1,0 +1,15 @@
+/* pages/my2/business/add_ad/add_ad.wxss */
+.touch-item {font-size: 14px;display: flex;justify-content: space-between;border-bottom:1px solid #e6e6e6;width: 100%;overflow: hidden;box-sizing: border-box;background: #fff;}
+.content {width: 100%;padding: 40rpx 0;margin-right:0;-webkit-transition: all 0.4s;transition: all 0.4s;-webkit-transform: translateX(150rpx);transform: translateX(150rpx);margin-left: -150rpx;box-sizing: border-box;position: relative;display: inline-block;}
+.del {background-color: #cc0011;width: 150rpx;display: flex;flex-direction: column;align-items: center;justify-content: center;color: #fff;-webkit-transform: translateX(150rpx);transform: translateX(150rpx);-webkit-transition: all 0.4s;transition: all 0.4s;font-size: 28rpx;margin-left: 24rpx;}
+.touch-move-active .content,.touch-move-active .del {-webkit-transform: translateX(0);transform: translateX(0);}
+
+.ad-pic{width: 93.6%;height: 200rpx;float: left;margin-left: 24rpx;}
+
+.ad-bt{width: 100%;box-sizing: border-box;padding: 0 24rpx;border-bottom: 1px solid #e6e6e6;background: #fff;}
+.ad-bt text{line-height: 80rpx;color: #999;font-size: 28rpx;}
+.ad-bt2{width: 100%;box-sizing: border-box;padding: 0 24rpx;border-bottom: 1px solid #e6e6e6;background: #fff;margin-top: 20rpx;}
+.ad-bt2 text{line-height: 80rpx;color: #999;font-size: 28rpx;}
+
+.ad-pic2{width: 100%;background: #fff;padding: 40rpx 0;}
+.ad-pic2 image{width: 93.6%;height: 200rpx;float: left;margin-left: 24rpx;}

@@ -1,0 +1,7 @@
+<!--pages/my2/business/goods_set_up/goods_introduce/goods_introduce.wxml-->
+<view class="container">
+  <view class='goods-introduce-top'>
+    <textarea placeholder='输入店铺介绍'></textarea>
+  </view>
+  <view class='goods-introduce-btn'><button>保存</button></view>
+</view>

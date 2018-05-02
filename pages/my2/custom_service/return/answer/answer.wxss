@@ -1,0 +1,7 @@
+/* pages/my2/custom_service/return/answer/answer.wxss */
+.answer-content{width: 100%;background: #fff;padding: 0 24rpx;box-sizing: border-box;padding-bottom: 50rpx;border-bottom: 1px solid #e6e6e6;}
+.answer-list1{width: 100%;padding-top: 35rpx;}
+.answer-list1 text{display: block;font-size: 26rpx;color: #666;line-height: 40rpx;}
+
+.answer-list2{width: 100%;padding-top: 45rpx;}
+.answer-list2 text{display: block;font-size: 26rpx;color: #666;line-height: 40rpx;}

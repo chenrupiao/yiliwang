@@ -1,0 +1,29 @@
+<!--pages/my2/set_up/set_up.wxml-->
+<view class="container">
+  <view class='setup-top'>
+    <navigator hover-class='none'>
+      <text>接受消息通知</text>
+      <switch checked color='#cc0011'/>
+    </navigator>
+    <navigator hover-class='none'>
+      <text>非wifi环境下手动下载图片</text>
+      <switch color='#cc0011'/>
+    </navigator>
+    <navigator hover-class='none'>
+      <text>清除本地缓存</text>
+      <text>20.02M</text>
+    </navigator>
+  </view>
+  <view class='setup-mid'>
+    <navigator url='about/about'>
+      <text>关于</text>
+      <view class='setup-txt'>
+        <text>V1.0.0</text>
+        <image src='/image/pt-icon1.png'></image>
+      </view>
+    </navigator>
+  </view>
+  <view class='setup-btn'>
+    <button>退出登录</button>
+  </view>
+</view>

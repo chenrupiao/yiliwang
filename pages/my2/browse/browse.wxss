@@ -1,0 +1,23 @@
+/* pages/my2/browse/browse.wxss */
+.my-list3{width: 100%;display: inline-block;padding: 0 24rpx;box-sizing: border-box;}
+.my-bt{text-align: center;width: 100%;line-height: 32rpx;height: 32rpx;padding-top: 45rpx;}
+.my-bt view{padding: 0 20rpx;box-sizing: border-box;display: inline-block;margin: 0 auto;background: #f2f2f2;}
+.my-bt view text{font-size: 30rpx;color: #333;line-height: 32rpx;height: 32rpx;float: left;}
+.my-bt image{width: 32rpx;height: 32rpx;float: left;margin-right: 10rpx;}
+.my-bt text.xian{width: 600rpx;height: 1px;background: #b3b3b3;display: block;margin: 0 auto;margin-top: -30rpx;}
+.my-list3-content navigator{width: 340rpx;background: #fff;display: inline-block;margin-top: 20rpx;}
+.my-list3-content navigator:nth-of-type(2n+1){float: left;}
+.my-list3-content navigator:nth-of-type(2n+2){float: right;}
+.my-list3-content navigator image{width: 340rpx;height: 340rpx;}
+.my-list3-content navigator text{color: #333;font-size: 26rpx;line-height: 41rpx;display: block;width: 100%;box-sizing: border-box;padding: 0 10rpx;}
+.my-list3-content navigator text:last-of-type{padding-bottom: 15rpx;}
+.my-list3-content navigator text.red{color: #cc0011;font-size: 32rpx;}
+
+.container {align-items:stretch;}
+.navbar{flex: none;display: flex;background: #fff; padding:0 10px;border-bottom:1px solid #e6e6e6;}  
+.navbar .item{position: relative;line-height: 40px;display:flex;font-size:30rpx;margin:0 auto;color: #333;}  
+.navbar .item.active{color: #cc0011;}  
+.navbar .item.active:after{content: "";display: block;position: absolute;bottom: 0;left: 0;right: 0;height: 2px;background: #cc0011;} 
+
+.child{display: none;width: 100%;box-sizing: border-box;padding: 0 24rpx;}
+.child.active{display: block;}

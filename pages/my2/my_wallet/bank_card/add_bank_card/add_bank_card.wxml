@@ -1,0 +1,14 @@
+<!--pages/my2/my_wallet/bank_card/add_bank_card/add_bank_card.wxml-->
+<view class="container">
+  <view class='add-bank-content'>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class='nav-txt'>{{array[index]}}<image src='/image/xiajt.png'></image></view>
+    </picker>
+    <input type='text' placeholder='银行卡号'></input>
+    <text>填写以下信息用于身份确认</text>
+    <input type='text' placeholder='请输入你的姓名'></input>
+    <input type='text' placeholder='请输入你的身份证号码'></input>
+    <input type='text' placeholder='银行卡预留号码'></input>
+    <input type='text' placeholder='请输入短信验证码'></input>  
+  </view>
+</view>

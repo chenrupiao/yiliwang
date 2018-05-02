@@ -1,0 +1,68 @@
+<!--pages/shopping_trolley/firm_order/firm_order.wxml-->
+<view class="container">
+  <view class='firm-order-top'>
+    <view class='firm-order-txt'>
+      <text>张小宝</text>
+      <text>188****8888</text>
+      <text>默认</text>
+    </view>
+    <view class='firm-order-txt2'>
+      <image src='/image/pay-icon2.png'></image>
+      <text>浙江 杭州市 江干区 下沙街道文创大厦1101号</text>
+    </view>
+    <view class='firm-order-pic'><image src='/image/pt-icon1.png'></image></view>
+  </view>
+  <image src='/image/bg1.png' class='firm-order-pic2' mode='widthFix'></image>
+  <view class='firm-order-list1'>
+    <view class='firm-order-txt3'>
+      <image src='/image/pic1.png'></image>
+      <view class='firm-order-txt4'>
+        <text>林氏木业现代可伸缩餐桌椅组合一桌四椅烤漆餐台吃餐台吃餐台吃餐台吃饭桌子</text>
+        <text>颜色：白色  尺码：1800mm*2000mm</text>
+      </view>
+      <view class='firm-order-txt5'>
+        <text>￥2940.00</text>
+        <text>x1</text>
+      </view>
+    </view>
+    <view class='firm-order-inp'>
+      <text>支付方式</text>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class='firm-order-txt6'>{{array[index]}}<image src='/image/pt-icon1.png'></image></view>
+      </picker>
+    </view>
+    <view class='firm-order-inp'>
+      <text>配送方式</text>
+      <picker bindchange="bindPickerChange2" value="{{index2}}" range="{{array2}}">
+        <view class='firm-order-txt6'>{{array2[index2]}}<image src='/image/pt-icon1.png'></image></view>
+      </picker>
+    </view>
+  </view>
+  <view class='firm-order-list2'>
+    <view class='firm-order-inp'>
+      <text>优惠券</text>
+      <view class='firm-order-txt6'>无可用<image src='/image/pt-icon1.png'></image></view>
+    </view>
+    <view class='firm-order-inp'>
+      <text>积分</text>
+      <view class='firm-order-txt6'><image src='/image/pt-icon1.png'></image></view>
+    </view>
+  </view>
+  <view class='firm-order-list3'>
+    <input type='text' placeholder='选填：给商家留言'></input>
+  </view>
+  <view class='firm-order-list4'>
+    <view class='firm-order-inp2'>
+      <text>商品金额</text>
+      <text>￥2940.00</text>
+    </view>
+    <view class='firm-order-inp2'>
+      <text>运费</text>
+      <text>+ ￥0.00</text>
+    </view>
+  </view>
+  <view class='firm-order-btn'>
+    <navigator url='../../payment_platform/payment_platform'>提交订单</navigator>
+    <text>实付款：￥2940.00</text>
+  </view>
+</view>

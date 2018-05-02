@@ -1,0 +1,4 @@
+/* pages/index/entity_shop/shop_classify/shop_classify.wxss */
+.shop-classify-list{width: 100%;margin-top: 20rpx;border-top: 1px solid #e6e6e6;}
+.shop-classify-list navigator{width: 100%;padding: 0 24rpx;box-sizing: border-box;background: #fff;border-bottom: 1px solid #e6e6e6;height: 90rpx;line-height: 90rpx;color: #333;font-size: 30rpx;}
+.shop-classify-list navigator image{float: right;margin-top: 37rpx;height: 27rpx;width: 15rpx;}

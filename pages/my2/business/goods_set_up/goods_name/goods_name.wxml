@@ -1,0 +1,13 @@
+<!--pages/my2/business/goods_set_up/goods_name/goods_name.wxml-->
+<view class="container">
+  <view class='goods-name-top'>
+    <textarea placeholder='输入店铺名称'></textarea>
+  </view>
+  <view class='goods-name-list'>
+    <text>店铺名称建议：</text>
+    <text>1、名称不能包含“公司、企业、集团、经销”等关键字；</text>
+    <text>2、不能包含“& * % ￥ #”特殊字符；</text>
+    <text>3、名称长度不超过30个字符；</text>
+  </view>
+  <view class='goods-name-btn'><button>保存</button></view>
+</view>

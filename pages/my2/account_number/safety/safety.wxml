@@ -1,0 +1,24 @@
+<!--pages/my2/account_number/safety/safety.wxml-->
+<view class="container">
+  <view class='safety-list'>
+    <navigator>
+      <text>账户名</text>
+      <text>180****0000</text>
+    </navigator>
+    <navigator url='validate/validate'>
+      <text>验证手机</text>
+      <image src='/image/pt-icon1.png'></image>
+      <text>180****0000</text>
+    </navigator>
+  </view>
+  <view class='safety-list'>
+    <navigator url='check_code/check_code'>
+      <text>修改登录密码</text>
+      <image src='/image/pt-icon1.png'></image>
+    </navigator>
+    <navigator url='payment_password/payment_password'>
+      <text>设置支付密码</text>
+      <image src='/image/pt-icon1.png'></image>
+    </navigator>
+  </view>
+</view>

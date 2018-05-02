@@ -1,0 +1,39 @@
+<!--pages/my2/business/goods_set_up/goods_set_up.wxml-->
+<view class="container">
+  <view class='goods-set-up'>
+    <navigator>
+      <text>店铺头像</text>
+      <view class='goods-set-up-list'>
+        <image src='/image/pic1.png' class='tx'></image>
+        <image src='/image/pt-icon1.png' class='jt'></image>
+      </view>
+    </navigator>
+    <navigator>
+      <text>店铺招牌</text>
+      <view class='goods-set-up-list'>
+        <image src='/image/pic1.png' class='zp'></image>
+        <image src='/image/pt-icon1.png' class='jt'></image>
+      </view>
+    </navigator>
+    <navigator url='goods_name/goods_name'>
+      <text>店铺名称</text>
+      <view class='goods-set-up-list'>
+        <text>yl_000001yl</text>
+        <image src='/image/pt-icon1.png' class='jt'></image>
+      </view>
+    </navigator>
+    <navigator url='goods_introduce/goods_introduce'>
+      <text>店铺介绍</text>
+      <view class='goods-set-up-list'>
+        <text>本店主要经营家具床、沙发、餐桌等</text>
+        <image src='/image/pt-icon1.png' class='jt'></image>
+      </view>
+    </navigator>
+    <navigator url='goods_address/goods_address'>
+      <text>发货地址</text>
+      <view class='goods-set-up-list'>
+        <image src='/image/pt-icon1.png' class='jt'></image>
+      </view>
+    </navigator>
+  </view>
+</view>

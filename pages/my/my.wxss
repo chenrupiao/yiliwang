@@ -1,0 +1,31 @@
+/* pages/my/my.wxss */
+page{background: #f2f2f2;}
+.container{font-size: 0;}
+.my-top{width: 100%;position: relative;height: 400rpx;}
+.my-header{width: 100%;padding: 20rpx 24rpx;box-sizing: border-box;position: relative;z-index: 1;display: inline-block;}
+.my-header navigator image{width: 42rpx;height: 42rpx;}
+.my-header navigator:first-of-type{float: left;}
+.my-header navigator:last-of-type{float: right;}
+.top-bg{position: absolute;width: 100%;z-index: 0}
+.top-bg image{width: 750rpx;height: 400rpx;}
+.top-mid{position: relative;z-index: 1;width: 100%;text-align: center;}
+.top-mid-pic{width: 150rpx;height: 150rpx;border-radius: 50%;background: #b8b8b8;text-align: center;margin: 0 auto;margin-top: 15rpx;}
+.top-mid-pic image{width: 140rpx;height: 140rpx;border-radius: 50%;margin-top: 5rpx;}
+.top-mid-txt{position: relative;z-index: 1;text-align: center;width: 100%;display: inline-block;padding-top: 30rpx;}
+.top-mid-txt navigator{font-size: 30rpx;color: #fff;display: inline-block;}
+.top-mid-txt text{font-size: 30rpx;color: #fff;display: inline-block;}
+
+.my-list1{width: 100%;display: inline-block;background: #fff;margin-bottom: 20rpx;border-bottom: 1px solid #e6e6e6;border-top: 1px solid #e6e6e6;}
+.my-list1 navigator{float: left;width: 20%;text-align: center;padding: 40rpx 0;box-sizing: border-box;}
+.my-list1 navigator image{width: 40rpx;height: 40rpx;}
+.my-list1 navigator text{font-size: 30rpx;color: #333;display: block;}
+.my-list1 navigator text:last-of-type{padding-top: 20rpx;font-size: 22rpx;}
+.my-list1 navigator:last-of-type{border-left: 1px solid #d9d9d9;}
+
+.my-list2{width: 100%;display: inline-block;background: #fff;border-bottom: 1px solid #e6e6e6;border-top: 1px solid #e6e6e6;}
+.my-list2 navigator{float: left;width: 25%;text-align: center;padding: 40rpx 0;box-sizing: border-box;}
+.my-list2 navigator image{width: 50rpx;height: 50rpx;}
+.my-list2 navigator text:last-of-type{padding-top: 15rpx;font-size: 22rpx;color: #333;display: block;}
+
+
+

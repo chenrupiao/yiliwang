@@ -1,0 +1,362 @@
+<!--index.wxml-->
+<view class="container">
+<scroll-view scroll-y="true" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll"  scroll-top="{{scrollY}}"style="height:100vh;"> 
+  <view class="page-body">
+    <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="true" indicator-color="#fff" indicator-active-color="#cc0011" autoplay="true" interval="5000" duration="500" circular="true" style="height:{{imgheights}}px;">
+        <block wx:for="{{imgUrls}}" wx:key="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image"/>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+  <view  class="{{scrollTop>80 ? 'search2' : 'search'}}">
+    <navigator class='search-fl' hover-class='none'>
+      <image src='../../image/saoyisao2.png'></image>
+      <text>扫一扫</text>
+    </navigator>
+    <navigator class='search-inp' hover-class='none'>
+      <input type='text' confirm-type="search" placeholder="输入搜索关键词" placeholder-style="color:#b4b6b8"></input>
+      <image src='/image/search.png'></image>
+    </navigator>
+    <navigator class='search-fr' url='n' hover-class='none'>
+      <text>杭州</text>
+      <image src='/image/jt.png'></image>
+    </navigator>
+  </view>
+  <view class='icon'>
+    <navigator url='' hover-class='none'>
+      <image src='/image/index-icon1.png'></image>
+      <text>蚁立直播</text>
+    </navigator>
+    <navigator url='entity_shop/entity_shop' hover-class='none'>
+      <image src='/image/index-icon2.png'></image>
+      <text>实体商家</text>
+    </navigator>
+    <navigator url='entity_mall/entity_mall' hover-class='none'>
+      <image src='/image/index-icon3.png'></image>
+      <text>实力电商</text>
+    </navigator>
+    <navigator url='local_entity/local_entity' hover-class='none'>
+      <image src='/image/index-icon4.png'></image>
+      <text>热门城市</text>
+    </navigator>
+  </view>
+  <view class='toutiao'>
+    <view class='toutiao-txt'>
+      <view>蚁立</view><text>头条</text>:
+    </view>
+    <navigator>双11.11大促销,优惠多多...</navigator>
+    <navigator>更多</navigator>
+  </view>
+  <view class='index-list1'>
+    <view class='bt'>
+      <navigator>今日直播</navigator>
+      <view></view>
+      <navigator class='super'>更多<image src='/image/gengduo.png'></image></navigator>
+    </view>
+    <view class='index-list1-content'>
+      <navigator>
+        <image src='/image/pic1.png'></image>
+        <text class='super'>9:00-16:00</text>
+        <text>杭州筑家家居实...</text>
+      </navigator>
+      <navigator>
+        <image src='/image/pic1.png'></image>
+        <view><image src='/image/shizhong.png'></image>正在直播</view>
+        <text>杭州筑家家居实...</text>
+      </navigator>
+      <navigator>
+        <image src='/image/pic1.png'></image>
+        <text class='super'>9:00-16:00</text>
+        <text>杭州筑家家居实...</text>
+      </navigator>
+    </view>
+  </view>
+  <view class='index-list2'>
+    <view class='bt2'>
+      <view class='bt2-fl'>
+        钻石展位
+      </view>
+      <navigator class='bt2-fr'>
+        更多<image src='/image/gengduo.png'></image>
+      </navigator>
+    </view>
+    <view class='index-list2-content'>
+      <navigator class='list2-content-fl'>
+        <image src='/image/pic2.png'></image>
+        <view class='list2-content-txt'>
+          <text>温馨舒适享时光</text>
+          <text>￥2000</text>
+        </view>
+      </navigator>
+      <view class='list2-content-fr'>
+        <navigator>
+          <view class='list2-content-txt2'>
+            <text>优质白蜡木森系双人床</text>
+            <text>￥1888</text>
+          </view>
+          <image src='/image/pic3.png'></image>
+        </navigator>
+        <view class='xuxian'></view>
+        <navigator>
+          <view class='list2-content-txt2'>
+            <text>优质白蜡木森系双人床</text>
+            <text>￥1888</text>
+          </view>
+          <image src='/image/pic3.png'></image>
+        </navigator>
+        <view class='xuxian'></view>
+      </view>
+    </view>
+  </view>
+  <view class='index-list2'>
+    <view class='bt2'>
+      <view class='bt2-fl'>
+        本地实体
+      </view>
+      <navigator class='bt2-fr'>
+        更多<image src='/image/gengduo.png'></image>
+      </navigator>
+    </view>
+    <view class='index-list2-content'>
+      <navigator class='list2-content-fl'>
+        <image src='/image/pic2.png'></image>
+        <view class='list2-content-txt'>
+          <text>温馨舒适享时光</text>
+          <text>￥2000</text>
+        </view>
+      </navigator>
+      <view class='list2-content-fr'>
+        <navigator>
+          <view class='list2-content-txt2'>
+            <text>优质白蜡木森系双人床</text>
+            <text>￥1888</text>
+          </view>
+          <image src='/image/pic3.png'></image>
+        </navigator>
+        <view class='xuxian'></view>
+        <navigator>
+          <view class='list2-content-txt2'>
+            <text>优质白蜡木森系双人床</text>
+            <text>￥1888</text>
+          </view>
+          <image src='/image/pic3.png'></image>
+        </navigator>
+        <view class='xuxian'></view>
+      </view>
+    </view>
+  </view>
+  <view class='banner'><image src='/image/banner2.png' mode='widthFix'></image></view>
+  <view class='index-list3'>
+    <view class='bt2'>
+      <view class='bt2-fl'>
+        全屋定制
+      </view>
+      <navigator class='bt2-fr'>
+        更多<image src='/image/gengduo.png'></image>
+      </navigator>
+    </view>
+    <view class='index-list2-content'>
+      <navigator class='list2-content-fl'>
+        <image src='/image/pic2.png'></image>
+        <view class='list2-content-txt'>
+          <text>温馨舒适享时光</text>
+          <text>￥2000</text>
+        </view>
+      </navigator>
+      <view class='list2-content-fr'>
+        <navigator>
+          <view class='list2-content-txt2'>
+            <text>优质白蜡木森系双人床</text>
+            <text>￥1888</text>
+          </view>
+          <image src='/image/pic3.png'></image>
+        </navigator>
+        <view class='xuxian'></view>
+        <navigator>
+          <view class='list2-content-txt2'>
+            <text>优质白蜡木森系双人床</text>
+            <text>￥1888</text>
+          </view>
+          <image src='/image/pic3.png'></image>
+        </navigator>
+        <view class='xuxian'></view>
+      </view>
+    </view>
+  </view>
+  <view class='index-list4'>
+    <view class='bt2'>
+      <view class='bt2-fl'>
+        风格分类
+      </view>
+      <navigator class='bt2-fr'>
+        更多<image src='/image/gengduo.png'></image>
+      </navigator>
+    </view>
+    <view class='index-list4-content'>
+      <navigator>
+        <image src='/image/pic4.png'></image>
+        <text>欧式风格</text>
+      </navigator>
+      <navigator>
+        <image src='/image/pic4.png'></image>
+        <text>欧式风格</text>
+      </navigator>
+      <navigator>
+        <image src='/image/pic4.png'></image>
+        <text>欧式风格</text>
+      </navigator>
+      <navigator>
+        <image src='/image/pic4.png'></image>
+        <text>欧式风格</text>
+      </navigator>
+    </view>
+  </view>
+  <view class='banner'>
+    <image src='/image/banner2.png' mode='widthFix'></image>
+  </view>
+  <view class='index-list3'>
+    <view class='bt2'>
+      <view class='bt2-fl'>
+        红木家具
+      </view>
+      <navigator class='bt2-fr'>
+        更多<image src='/image/gengduo.png'></image>
+      </navigator>
+    </view>
+    <view class='index-list2-content'>
+      <navigator class='list2-content-fl'>
+        <image src='/image/pic2.png'></image>
+        <view class='list2-content-txt'>
+          <text>温馨舒适享时光</text>
+          <text>￥2000</text>
+        </view>
+      </navigator>
+      <view class='list2-content-fr'>
+        <navigator>
+          <view class='list2-content-txt2'>
+            <text>优质白蜡木森系双人床</text>
+            <text>￥1888</text>
+          </view>
+          <image src='/image/pic3.png'></image>
+        </navigator>
+        <view class='xuxian'></view>
+        <navigator>
+          <view class='list2-content-txt2'>
+            <text>优质白蜡木森系双人床</text>
+            <text>￥1888</text>
+          </view>
+          <image src='/image/pic3.png'></image>
+        </navigator>
+        <view class='xuxian'></view>
+      </view>
+    </view>
+  </view>
+  <view class='index-list2'>
+    <view class='bt2'>
+      <view class='bt2-fl'>
+        环保儿童
+      </view>
+      <navigator class='bt2-fr'>
+        更多<image src='/image/gengduo.png'></image>
+      </navigator>
+    </view>
+    <view class='index-list2-content'>
+      <navigator class='list2-content-fl'>
+        <image src='/image/pic2.png'></image>
+        <view class='list2-content-txt'>
+          <text>温馨舒适享时光</text>
+          <text>￥2000</text>
+        </view>
+      </navigator>
+      <view class='list2-content-fr'>
+        <navigator>
+          <view class='list2-content-txt2'>
+            <text>优质白蜡木森系双人床</text>
+            <text>￥1888</text>
+          </view>
+          <image src='/image/pic3.png'></image>
+        </navigator>
+        <view class='xuxian'></view>
+        <navigator>
+          <view class='list2-content-txt2'>
+            <text>优质白蜡木森系双人床</text>
+            <text>￥1888</text>
+          </view>
+          <image src='/image/pic3.png'></image>
+        </navigator>
+        <view class='xuxian'></view>
+      </view>
+    </view>
+  </view>
+  <view class='banner'><image src='/image/banner2.png' mode='widthFix'></image></view>
+  <view class='index-list3'>
+    <view class='bt2'>
+      <view class='bt2-fl'>
+        家居饰品
+      </view>
+      <navigator class='bt2-fr'>
+        更多<image src='/image/gengduo.png'></image>
+      </navigator>
+    </view>
+    <view class='index-list2-content'>
+      <navigator class='list2-content-fl'>
+        <image src='/image/pic2.png'></image>
+        <view class='list2-content-txt'>
+          <text>温馨舒适享时光</text>
+          <text>￥2000</text>
+        </view>
+      </navigator>
+      <view class='list2-content-fr'>
+        <navigator>
+          <view class='list2-content-txt2'>
+            <text>优质白蜡木森系双人床</text>
+            <text>￥1888</text>
+          </view>
+          <image src='/image/pic3.png'></image>
+        </navigator>
+        <view class='xuxian'></view>
+        <navigator>
+          <view class='list2-content-txt2'>
+            <text>优质白蜡木森系双人床</text>
+            <text>￥1888</text>
+          </view>
+          <image src='/image/pic3.png'></image>
+        </navigator>
+        <view class='xuxian'></view>
+      </view>
+    </view>
+  </view>
+  <view class='index-list5'>
+    <view class='bt'>
+      <navigator>猜您喜欢</navigator>
+      <view></view> 
+    </view>
+    <view class='index-list5-content'>
+      <navigator>
+        <image src='/image/pic5.png'></image>
+        <text>kaimeng 皮床 真皮床1.8米双人床 1.8*2.0米</text>
+        <text>￥1000.00</text>
+      </navigator>
+      <navigator>
+        <image src='/image/pic5.png'></image>
+        <text>kaimeng 皮床 真皮床1.8米双人床 1.8*2.0米</text>
+        <text>￥1000.00</text>
+      </navigator>
+      <navigator>
+        <image src='/image/pic5.png'></image>
+        <text>kaimeng 皮床 真皮床1.8米双人床 1.8*2.0米</text>
+        <text>￥1000.00</text>
+      </navigator>
+      <navigator>
+        <image src='/image/pic5.png'></image>
+        <text>kaimeng 皮床 真皮床1.8米双人床 1.8*2.0米</text>
+        <text>￥1000.00</text>
+      </navigator>
+    </view>
+  </view>
+</scroll-view>
+</view>

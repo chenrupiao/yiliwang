@@ -1,0 +1,5 @@
+/* pages/my2/personal_information/sgnc/sgnc.wxss */
+.xgnc-content{width: 100%}
+.xgnc-content input{width: 100%;box-sizing: border-box;padding: 0 24rpx;height: 100rpx;line-height: 100rpx;background: #fff;font-size: 30rpx;}
+.xgnc-content text{width: 100%;box-sizing: border-box;padding: 0 24rpx;font-size: 24rpx;color: #999;line-height: 60rpx;}
+.xgnc-content button{width: 100%;color: #fff;background: #cc0011;border: none;line-height: 90rpx;text-align: center;font-size: 32rpx;box-sizing: border-box;padding: 0 24rpx;}

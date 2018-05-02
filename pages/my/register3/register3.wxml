@@ -1,0 +1,12 @@
+<!--pages/my/register3/register3.wxml-->
+<view class="container">
+  <view class='re3-inp'>
+    <text>设置密码</text>
+    <input type='password' placeholder='由6-20位字母、数字结合'></input>
+  </view>
+  <view class='re3-inp2'>
+    <text>确认密码</text>
+    <input type='password'></input>
+  </view>
+  <view class='re3-btn'><navigator>确认注册</navigator></view>
+</view>

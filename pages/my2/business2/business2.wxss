@@ -1,0 +1,19 @@
+/* pages/my2/business2/business2.wxss */
+.business2-top{width: 100%;background: #ebebeb;text-align: center;display: inline-block;padding-top: 70rpx;padding-bottom: 50rpx;}
+.business2-top text{color: #999;font-size: 26rpx;display: block;padding-top: 33rpx;}
+.business2-pic{width: 142rpx;height: 142rpx;margin: 0 auto;text-align: center;position: relative;}
+.business2-pic image:first-of-type{width: 142rpx;height: 142rpx;}
+.business2-pic image:last-of-type{width: 62rpx;height: 62rpx;position: absolute;bottom: -31rpx;right: -31rpx;}
+
+.business-mid{width: 100%;margin-top: 20rpx;background: #fff;padding: 0 24rpx;box-sizing: border-box;}
+.business2-inp{width: 100%;height: 100rpx;border-bottom: 1px solid #e6e6e6;}
+.business2-inp input{height: 100rpx;line-height: 100rpx;width: 100%;font-size: 30rpx;color: #ccc;}
+
+.business2-btn{width: 100%;padding: 0 24rpx;box-sizing: border-box;margin-top: 80rpx;}
+.business2-btn navigator{width: 100%;border-radius: 4px;color: #fff;font-size: 32rpx;text-align: center;line-height: 90rpx;background: #cc0011;}
+
+.business2-bottom{width: 100%;text-align: center;margin-top: 200rpx;}
+.business2-bottom2{width: 100%;text-align: center;margin-top: 30rpx;}
+.business-btn2{margin: 0 auto;display: inline-block;}
+.business-btn2 text{color: #cc0011;font-size: 28rpx;float: left;}
+.business-btn2 image{float: left;width: 28rpx;height: 28rpx;margin-left: 10rpx;margin-top: 6rpx;}

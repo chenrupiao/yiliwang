@@ -1,0 +1,57 @@
+<!--pages/index/entity_shop2/entity_shop2.wxml-->
+<view class="container">
+  <view class='mall-top'>
+    <image src='/image/banner6.png' class='entity-banner' mode='widthFix'></image>
+    <view class='black'></view>
+    <view class='mall-top-txt'>
+      <image src='/image/logo4.png' class='mall-logo'></image>
+      <text class='mall-txt'>国际家居大卖场</text>
+      <navigator>
+        <image src='/image/aixin.png'></image>
+        <text>关注</text>
+      </navigator>
+    </view>
+  </view>
+  <view class='mall-nav'>
+    <navigator url='../entity_mall/entity_mall' open-type="redirect">
+      <image src='/image/pay-icon.png'></image>
+      <text class='last'>商城首页</text>
+    </navigator>
+    <navigator class='active' url='entity_mall2/entity_mall2' open-type="redirect">
+      <text class='first'>132</text>
+      <text class='last'>全部商城</text>
+    </navigator>
+  </view>
+  <view class='mall2-content {{Class2}}'>
+    <view class='mall2-nav'>
+      <navigator>推荐</navigator>
+      <navigator>销量</navigator>
+      <navigator>新品</navigator>
+      <navigator bindtap='changeurl'>价格<image src='{{url}}'></image></navigator>
+      <navigator bindtap='changeclass2'><image src='/image/mall-icon2.png'></image></navigator>
+    </view>
+    <view class='mall2-content2 {{Class2}}'>
+      <navigator wx:for='{{mall2content}}' wx:key='{{index}}' data-index='{{index}}'>
+        <image src='{{item.urls}}'></image>
+        <view class='mall2-txt {{Class2}}'>
+          <text>{{item.bt}}</text>
+          <text>{{item.txt}}{{item.txt2}}</text>
+          <text>{{item.jg}}</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
+<view class='mall-btn'>
+  <navigator>商城详情</navigator>
+  <navigator bindtap='changeclass'><image src='/image/mall-icon.png'></image>品牌分类</navigator>
+  <navigator><image src='/image/my2-icon4.png'></image> 联系商城</navigator>
+</view>
+<view class='mall-nav2 {{Class}}'>
+  <navigator>红星美凯龙</navigator>
+  <navigator>红星美凯龙</navigator>
+  <navigator>红星美凯龙</navigator>
+  <navigator>红星美凯龙</navigator>
+  <navigator>红星美凯龙</navigator>
+  <navigator>红星美凯龙</navigator>
+</view>

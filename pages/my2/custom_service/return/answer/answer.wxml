@@ -1,0 +1,21 @@
+<!--pages/my2/custom_service/return/answer/answer.wxml-->
+<view class="container">
+  <view class='answer-content'>
+    <view class='answer-list1'>
+      <text>一、蚁立网承诺：自用户收到商品之日起（以快递面单签收时间为准）</text>
+      <text>按以下标准提供退换货服务：</text>
+      <text>1)、7天内无理由退换货，因质量问题退换货的来回运费由商家承担；因非质量问退换货的来回运费由客户承担。</text>
+      <text>2）、无论是哪种情况的退换货，请您先垫付运费，蚁立网将会根据您选择的退款方式将运费和商品差价一并退换给您。</text>
+      <text>3）、符合退换货要求的订单，不要用平邮的方式寄回，不支持到付。</text>
+    </view>
+    <view class='answer-list2'>
+      <text>二、退货时务必将货品连同外包装一并寄回，且务必按照要求填写退换货单，否则将会影响我们为您办理退换货的速率。</text>
+    </view>
+    <view class='answer-list2'>
+      <text>三、注明退换货的原因，如果商品存在质量问题，请务必说明。</text>
+    </view>
+    <view class='answer-list2'>
+      <text>四、收到用户寄回的商品后，我们将在3个工作日内为您办理退货。</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+/* pages/my2/business/goods_set_up/goods_name/goods_name.wxss */
+.goods-name-top{width: 100%;box-sizing: border-box;padding: 0 24rpx;background: #fff;}
+.goods-name-top textarea{width: 100%;font-size: 32rpx;color: #333;height: 200rpx;padding: 25rpx 0;box-sizing: border-box;}
+.goods-name-list{width: 100%;box-sizing: border-box;padding: 0 24rpx;}
+.goods-name-list text{display: block;color: #999;font-size: 26rpx;line-height: 40rpx;}
+.goods-name-list text:first-of-type{line-height: 60rpx;}
+.goods-name-btn{width: 100%;box-sizing: border-box;padding: 0 24rpx;margin-top: 200rpx;}
+.goods-name-btn button{width: 100%;border: none;background: #cc0011;color: #fff;font-size: 32rpx;text-align: center;line-height: 90rpx;height: 90rpx;}

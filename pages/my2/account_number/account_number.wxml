@@ -1,0 +1,29 @@
+<!--pages/my2/account_number/account_number.wxml-->
+<view class="container">
+  <navigator class='account-top' url='../personal_information/personal_information'>
+    <image src='/image/pic1.png' class='tx'></image>
+    <text>yl_000001yl</text>
+    <image src='/image/pt-icon1.png' class='jt'></image>
+  </navigator>
+  <view class='account-bottom'>
+    <navigator url='real_name/real_name'>
+      <text>实名认证</text>
+      <view class='account-fr'>
+        <text>未认证</text>
+        <image src='/image/pt-icon1.png'></image>
+      </view>
+    </navigator>
+    <navigator url='safety/safety'>
+      <text>账户安全</text>
+      <view class='account-fr'>
+        <image src='/image/pt-icon1.png'></image>
+      </view>
+    </navigator>
+    <navigator url='address/address'>
+      <text>地址管理</text>
+      <view class='account-fr'>
+        <image src='/image/pt-icon1.png'></image>
+      </view>
+    </navigator>
+  </view>
+</view>

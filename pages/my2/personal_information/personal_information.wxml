@@ -1,0 +1,27 @@
+<!--pages/my2/personal_information/personal_information.wxml-->
+<view class="container">
+  <view class='pi-content'>
+    <navigator bindtap='pitouxiang'>
+      <text>头像</text>
+      <image src='/image/pt-icon1.png' class='jt'></image>
+      <image src='/image/pic1.png' class='tx'></image>
+    </navigator>
+    <navigator url='sgnc/sgnc'>
+      <text>昵称</text>
+      <image src='/image/pt-icon1.png' class='jt'></image>
+      <text>yl_000001yl</text>
+    </navigator>
+    <navigator url='sex/sex'>
+      <text>性别</text>
+      <image src='/image/pt-icon1.png' class='jt'></image>
+      <text>男</text>
+    </navigator>
+    <navigator>
+      <text>出生日期</text>
+      <image src='/image/pt-icon1.png' class='jt'></image>
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2030-03-06" bindchange="bindDateChange">
+        <view class='nav-txt'>{{date}}</view>
+      </picker>
+    </navigator>
+  </view>
+</view>

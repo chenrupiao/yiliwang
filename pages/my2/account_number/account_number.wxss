@@ -1,0 +1,12 @@
+/* pages/my2/account_number/account_number.wxss */
+.account-top{width: 100%;background: #fff;padding: 30rpx 24rpx;box-sizing: border-box;}
+.account-top .tx{width: 140rpx;height:140rpx;border-radius: 50%;float: left;}
+.account-top text{float: left;font-size: 32rpx;color: #333;margin-top: 30rpx;margin-left: 30rpx;}
+.account-top .jt{float: right;width: 26rpx;height: 46rpx;margin-top: 47rpx;}
+
+.account-bottom{background: #fff;width: 100%;padding: 0 24rpx;box-sizing: border-box;margin-top: 30rpx;}
+.account-bottom navigator{width: 100%;border-bottom: 1px solid #e6e6e6;height: 100rpx;line-height: 100rpx;}
+.account-bottom navigator text{color: #333;font-size: 30rpx;}
+.account-fr{float: right;}
+.account-fr text{color: #b2b2b2 !important;font-size: 28rpx;float: left;}
+.account-fr image{float: left;width: 15rpx;height: 27rpx;margin-top: 37rpx;margin-left: 20rpx;}

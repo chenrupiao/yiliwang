@@ -1,0 +1,47 @@
+<!--pages/payment_platform/payment_platform.wxml-->
+<view class="container">
+  <view class='pt-content'>
+    <view class='pt-bt'>
+      <text>订单金额</text>
+      <text>2940.00元</text>
+    </view>
+    <view class='pt-content2'>
+      <navigator>
+        <view class='pt-pic1'>
+          <image src='/image/pt-icon2.png' mode='widthFix'></image>
+        </view>
+        <view class='pt-txt'>
+          <text>支付宝支付</text>
+          <text>支付宝安全支付</text>
+        </view>
+        <view class='pt-pic2'>
+          <image src='/image/pt-icon1.png' mode='widthFix'></image>
+        </view>
+      </navigator>
+      <navigator>
+        <view class='pt-pic1'>
+          <image src='/image/pt-icon3.png' mode='widthFix'></image>
+        </view>
+        <view class='pt-txt'>
+          <text>微信支付</text>
+          <text>微信安全支付</text>
+        </view>
+        <view class='pt-pic2'>
+          <image src='/image/pt-icon1.png' mode='widthFix'></image>
+        </view>
+      </navigator>
+      <navigator>
+        <view class='pt-pic1'>
+          <image src='/image/pt-icon4.png' mode='widthFix'></image>
+        </view>
+        <view class='pt-txt'>
+          <text>快捷支付</text>
+          <text>银行卡快捷支付</text>
+        </view>
+        <view class='pt-pic2'>
+          <image src='/image/pt-icon1.png' mode='widthFix'></image>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

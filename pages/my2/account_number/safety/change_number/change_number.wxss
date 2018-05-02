@@ -1,0 +1,9 @@
+/* pages/my2/account_number/safety/change_number/change_number.wxss */
+.change-number-content{width: 100%;}
+.change-number-inp{height: 100rpx;line-height: 100rpx;background: #fff;width: 100%;margin-top: 30rpx;box-sizing: border-box;padding:  0 24rpx;}
+.change-number-inp text{font-size: 30rpx;color: #333;width: 150rpx;float: left;}
+.change-number-inp input{font-size: 30rpx;line-height: 100rpx;width: 400rpx;float: left;height: 100rpx;}
+.change-number-inp navigator{float: right;font-size: 30rpx;color: #2889ec}
+
+.change-number-btn{width: 100%;padding: 0 24rpx;box-sizing: border-box;}
+.change-number-btn navigator{width: 100%;background: #cc0011;text-align: center;line-height: 90rpx;color: #fff;font-size: 32rpx;margin-top: 100rpx;border-radius: 4px;}

@@ -1,0 +1,21 @@
+/* pages/my2/business/goods_manage/goods_message/goods_message.wxss */
+.goods-message-list{width: 100%;}
+.goods-message-list2{margin-top: 20rpx;width: 100%;}
+.goods-message-list3{margin-top: 20rpx;width: 100%;margin-bottom: 110rpx;}
+.goods-message-banner{width: 100%;}
+.goods-message-banner image{width: 100%;}
+
+.goods-message-content{width: 100%;padding: 0 24rpx;box-sizing: border-box;background: #fff;position: relative;}
+.goods-message-content textarea{font-size: 30rpx;line-height: 45rpx;width: 100%;height: 140rpx;box-sizing: border-box;padding-bottom: 10rpx;padding-top: 22rpx;border-bottom: 1px solid #e6e6e6;}
+.goods-message-content .fr{font-size: 30rpx;color: #ccc;position: absolute;right: 24rpx;bottom: 0;}
+
+.goods-message-inp{width: 100%;padding: 0 24rpx;box-sizing: border-box;background: #fff;display: inline-block;line-height: 100rpx;border-bottom: 1px solid #e6e6e6;}
+.goods-message-inp text:first-of-type{font-size: 30rpx;color: #333;font-weight: bold;float: left;height: 100rpx;line-height: 100rpx;}
+.goods-message-inp text:nth-of-type(2){font-size: 30rpx;color: #999;float: right;line-height: 100rpx;height: 100rpx;}
+.goods-message-inp image{float: right;width: 15rpx;height: 27rpx;margin-left: 20rpx;margin-top: 38rpx;}
+.goods-message-inp input{float: right;color: #999;font-size: 30rpx;width: 610rpx;height: 100rpx;line-height: 100rpx;text-align: right;}
+.goods-message-txt{float: right;font-size: 30rpx;color: #999;}
+.goods-message-txt image{float: right;width: 15rpx;height: 27rpx;margin-left: 20rpx;margin-top: 38rpx;}
+
+.goods-message-btn{width: 100%;position: fixed;bottom: 0;left: 0;}
+.goods-message-btn navigator{width: 100%;text-align: center;line-height: 90rpx;color: #fff;background: #cc0011;font-size: 32rpx;}

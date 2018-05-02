@@ -1,0 +1,73 @@
+<!--pages/my2/custom_service/custom_service.wxml-->
+<view class="container">
+  <view class='kf-list1'>
+    <view class='kf-bt'>
+      <text>自助服务</text>
+    </view>
+    <view class='kf-btn'>
+      <navigator>
+        <image src='/image/kf-icon1.png'></image>
+        <text>物流查询</text>
+      </navigator>
+      <navigator>
+        <image src='/image/kf-icon2.png'></image>
+        <text>催促配送</text>
+      </navigator>
+      <navigator>
+        <image src='/image/kf-icon3.png'></image>
+        <text>账户安全</text>
+      </navigator>
+      <navigator>
+        <image src='/image/kf-icon4.png'></image>
+        <text>申请售后</text>
+      </navigator>
+    </view>
+  </view>
+  <view class='kf-list1'>
+    <view class='kf-bt'>
+      <text>常见问题</text>
+    </view>
+    <view class='kf-btn2'>
+      <view class="navbar page-section-spacing">
+        <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+      </view>
+    </view>
+    <view class="child {{currentTab==0 ? 'active' : ''}}">
+      <navigator>
+        <text>物流配送</text>
+        <image src='/image/pt-icon1.png'></image>
+      </navigator>
+      <navigator>
+        <text>售后问题</text>
+        <image src='/image/pt-icon1.png'></image>
+      </navigator>
+      <navigator>
+        <text>退款问题</text>
+        <image src='/image/pt-icon1.png'></image>
+      </navigator>
+      <navigator url='return/return'>
+        <text>退货换货</text>
+        <image src='/image/pt-icon1.png'></image>
+      </navigator>
+    </view>
+    <view class="child {{currentTab==1 ? 'active' : ''}}">
+    </view>
+    <view class="child {{currentTab==2 ? 'active' : ''}}">
+    </view>
+  </view>
+  <view class='kf-list1'>
+    <view class='kf-bt'>
+      <text>联系客服</text>
+    </view>
+    <view class="child active">
+      <navigator>
+        <text>在线客服</text>
+        <image src='/image/pt-icon1.png'></image>
+      </navigator>
+      <navigator>
+        <text>售后问题</text>
+        <text>400-0611-800</text>
+      </navigator>
+    </view>
+  </view>
+</view>

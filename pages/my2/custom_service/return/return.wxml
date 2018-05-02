@@ -1,0 +1,23 @@
+<!--pages/my2/custom_service/return/return.wxml-->
+<view class="container">
+  <view class='return'>
+    <view class="child active">
+      <navigator url='answer/answer'>
+        <text>如何办理退货？</text>
+        <image src='/image/pt-icon1.png'></image>
+      </navigator>
+      <navigator>
+        <text>退货后什么时候退款？</text>
+        <image src='/image/pt-icon1.png'></image>
+      </navigator>
+      <navigator>
+        <text>发货运费退吗？</text>
+        <image src='/image/pt-icon1.png'></image>
+      </navigator>
+      <navigator>
+        <text>换货规则</text>
+        <image src='/image/pt-icon1.png'></image>
+      </navigator>
+    </view>
+  </view>
+</view>

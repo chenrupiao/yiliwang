@@ -1,0 +1,15 @@
+<!--pages/my2/account_number/safety/change_number/change_number.wxml-->
+<view class="container">
+  <view class='change-number-content'>
+    <view class='change-number-inp'>
+      <text>新手机号</text>
+      <input type='text' placeholder='请填手机号'></input>
+      <navigator>获取验证码</navigator>
+    </view>
+    <view class='change-number-inp'>
+      <text>验证码</text>
+      <input type='text' placeholder='请输入短信验证码'></input>
+    </view>
+    <view class='change-number-btn'><navigator>完成</navigator></view>
+  </view>
+</view>

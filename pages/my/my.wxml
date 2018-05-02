@@ -1,0 +1,94 @@
+<!--pages/my/my.wxml-->
+<view class="container">
+  <view class='my-top'>
+    <view class='top-bg'>
+      <image src='/image/my-bg.png'></image>
+    </view>
+    <view class='my-header'>
+      <navigator><image src='/image/my-icon1.png'></image></navigator>
+      <navigator><image src='/image/my-icon2.png'></image></navigator>
+    </view>
+    <view class='top-mid'>
+      <view class='top-mid-pic'>
+        <image src='/image/pic1.png'></image>
+      </view>
+      <view class='top-mid-txt'>
+        <navigator url='login/login'>登录</navigator>
+        <text>/</text>
+        <navigator url='register/register'>注册</navigator>
+      </view>
+    </view>
+  </view>
+  <view class='my-list1'>
+    <navigator>
+      <image src='/image/my-icon3.png'></image>
+      <text>待付款</text>
+    </navigator>
+    <navigator>
+      <image src='/image/my-icon4.png'></image>
+      <text>待发货</text>
+    </navigator>
+    <navigator>
+      <image src='/image/my-icon5.png'></image>
+      <text>待收货</text>
+    </navigator>
+    <navigator>
+      <image src='/image/my-icon6.png'></image>
+      <text>待评价</text>
+    </navigator>
+    <navigator>
+      <image src='/image/my-icon7.png'></image>
+      <text>我的订单></text>
+    </navigator>
+  </view>
+  <view class='my-list1'>
+    <navigator>
+      <text>0</text>
+      <text>积分</text>
+    </navigator>
+    <navigator>
+      <text>0</text>
+      <text>优惠券</text>
+    </navigator>
+    <navigator>
+      <text>0.00</text>
+      <text>余额</text>
+    </navigator>
+    <navigator>
+      <text>0</text>
+      <text>银行卡</text>
+    </navigator>
+    <navigator>
+      <image src='/image/my-icon8.png'></image>
+      <text>我的钱包></text>
+    </navigator>
+  </view>
+  <view class='my-list2'>
+    <navigator>
+      <image src='/image/my2-icon1.png'></image>
+      <text>收藏商品</text>
+    </navigator>
+    <navigator>
+      <image src='/image/my2-icon2.png'></image>
+      <text>收藏店铺</text>
+    </navigator>
+    <navigator>
+      <image src='/image/my2-icon3.png'></image>
+      <text>浏览记录</text>
+    </navigator>
+    <navigator>
+      <image src='/image/my2-icon4.png'></image>
+      <text>客服服务</text>
+    </navigator>
+  </view>
+  <view class='my-list2'>
+    <navigator>
+      <image src='/image/my2-icon5.png'></image>
+      <text>我是商家</text>
+    </navigator>
+    <navigator>
+      <image src='/image/my2-icon6.png'></image>
+      <text>我要直播</text>
+    </navigator>
+  </view>
+</view>

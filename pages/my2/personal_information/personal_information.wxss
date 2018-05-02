@@ -1,0 +1,10 @@
+/* pages/my2/personal_information/personal_information.wxss */
+.pi-content{width: 100%;box-sizing: border-box;padding: 0 24rpx;background: #fff;}
+.pi-content navigator{width: 100%;border-bottom: 1px solid #e6e6e6;padding: 25rpx 0;display: inline-block;position: relative;}
+.pi-content navigator:first-of-type text{line-height: 120rpx;}
+.pi-content navigator text{color: #333;font-size: 30rpx;float: left;}
+.pi-content navigator text:first-of-type{font-weight: bold;}
+.pi-content navigator text:nth-of-type(2){float: right;color: #b2b2b2;font-size: 28rpx;margin-right: 35rpx;}
+.pi-content navigator .tx{width: 120rpx;height: 120rpx;border-radius: 50%;float: right;margin-right: 35rpx;}
+.pi-content navigator .jt{float: right;width: 15rpx;height: 27rpx;position: absolute;top: 50%;margin-top: -13rpx;right: 0;}
+.pi-content .nav-txt{float: right;color: #b2b2b2;font-size: 28rpx;margin-right: 35rpx;}

@@ -1,0 +1,13 @@
+/* pages/payment_platform/payment_platform.wxss */
+page{background: #f2f2f2;}
+.pt-content{width: 100%;background: #fff;margin-top: 20rpx;}
+.pt-bt{width: 100%;padding: 0 24rpx;box-sizing: border-box;border-bottom: 1px solid #e6e6e6;height: 90rpx;line-height: 90rpx;}
+.pt-bt text:first-of-type{font-size: 28rpx;color: #666;float: left;height: 90rpx;line-height: 90rpx;}
+.pt-bt text:last-of-type{font-size: 32rpx;color: #cc0011;float: right;height: 90rpx;line-height: 90rpx;}
+.pt-content2{width: 100%;}
+.pt-content2 navigator{width: 100%;height: 120rpx;display: flex;align-items: center;padding-left:24rpx;box-sizing: border-box;border-bottom: 1px solid #e6e6e6;justify-content: space-between;}
+.pt-pic1 image{float: left;width: 70rpx;}
+.pt-pic2 image{float: right;width: 15rpx;height: 27rpx;margin-right: 24rpx;}
+.pt-txt{float: left;width: 590rpx;}
+.pt-txt text:first-of-type{color: #333;font-size: 30rpx;display: block;}
+.pt-txt text:last-of-type{color: #999;font-size: 24rpx;display: block;}

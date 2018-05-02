@@ -1,0 +1,4 @@
+/* pages/my2/my_wallet/remaining_sum/remaining_sum.wxss */
+.sum-content{width: 100%;background: #fff;text-align: center;padding-top: 135rpx;padding-bottom: 130rpx;border-bottom: 1px solid #e6e6e6;}
+.sum-content text:first-of-type{font-size: 24rpx;color: #999;display: block;}
+.sum-content text:last-of-type{color: #cc0011;font-size: 80rpx;display: block}

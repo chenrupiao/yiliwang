@@ -1,0 +1,6 @@
+/* pages/my2/account_number/safety/safety.wxss */
+.safety-list{width: 100%;box-sizing: border-box;margin-top: 30rpx;padding: 0 24rpx;background: #fff;}
+.safety-list navigator{width: 100%;height: 100rpx;line-height: 100rpx;border-bottom: 1px solid #e6e6e6;}
+.safety-list navigator text:first-of-type{font-size: 30rpx;color: #333;float: left;}
+.safety-list navigator text:nth-of-type(2){font-size: 30rpx;color: #999;float: right;}
+.safety-list navigator image{width: 15rpx;height: 27rpx;float: right;margin-left: 15rpx;margin-top: 38rpx;}

@@ -1,0 +1,106 @@
+/* pages/goods_view/goods_view.wxss */
+page{background: #f2f2f2;}
+.page-body{width:100%;}
+swiper{width:100%;}
+.slide-image{width:100%;}
+.container{position: relative;font-size: 0}
+
+.goods-view-list{width: 100%;padding: 0 24rpx;box-sizing: border-box;background: #fff;}
+.goods-view-list text:first-of-type{color: #333;font-size: 30rpx;line-height: 43rpx;display: block;padding-top: 12rpx;}
+.goods-view-list text:last-of-type{font-size: 36rpx;color: #cc0011;line-height: 43rpx;display: block;padding: 20rpx 0;}
+
+.goods-view-list2{width: 100%;padding: 0 24rpx;box-sizing: border-box;background: #fff;height: 80rpx;line-height: 80rpx;margin-top: 20rpx;}
+.goods-view-list2 text:first-of-type{font-size: 28rpx;color: #666;float: left;}
+.goods-view-list2 text:nth-of-type(2){font-size: 28rpx;color: #333;float: left;font-weight: bold;margin-left: 15rpx;}
+.goods-view-list2 navigator{float: right;margin-top: 37rpx;}
+.goods-view-list2 navigator icon{float: left;margin-left: 8rpx;}
+.goods-view-list2 navigator icon:first-of-type{width: 8rpx;height: 8rpx;border-radius: 50%;background: #ccc;}
+.goods-view-list2 navigator icon:nth-of-type(2){width: 8rpx;height: 8rpx;border-radius: 50%;background: #808080;}
+.goods-view-list2 navigator icon:nth-of-type(3){width: 8rpx;height: 8rpx;border-radius: 50%;background: #333;}
+
+.goods-view-list3{width: 100%;padding: 0 24rpx;box-sizing: border-box;background: #fff;height: 80rpx;line-height: 80rpx;margin-top: 20rpx;}
+.goods-view-list3 text:first-of-type{font-size: 28rpx;color: #666;float: left;}
+.goods-view-list3 view{font-size: 28rpx;color: #333;float: left;margin-left: 15rpx;}
+.goods-view-list3 view image{float: left;width: 16rpx;height: 21rpx;margin-top: 30rpx;margin-right: 8rpx;}
+.goods-view-list3 navigator{float: right;margin-top: 37rpx;}
+.goods-view-list3 navigator icon{float: left;margin-left: 8rpx;}
+.goods-view-list3 navigator icon:first-of-type{width: 8rpx;height: 8rpx;border-radius: 50%;background: #ccc;}
+.goods-view-list3 navigator icon:nth-of-type(2){width: 8rpx;height: 8rpx;border-radius: 50%;background: #808080;}
+.goods-view-list3 navigator icon:nth-of-type(3){width: 8rpx;height: 8rpx;border-radius: 50%;background: #333;}
+
+.goods-view-list4{width: 100%;padding: 0 24rpx;box-sizing: border-box;background: #fff;margin-top: 20rpx;}
+.goods-view-bt{width: 100%;height: 80rpx;line-height: 80rpx;border-bottom: 1px solid #e6e6e6;}
+.goods-view-fl{float: left;font-size: 26rpx;color: #666;}
+.goods-view-txt{float: right;font-size: 26rpx;}
+.goods-view-txt text{color: #cc0011;font-size: 26rpx;}
+.goods-view-txt image{width: 15rpx;height: 27rpx;float: right;margin-top: 28rpx;margin-left: 8rpx;}
+.gv-list4-content{width: 100%;padding-bottom: 20rpx;border-bottom:1px solid #e6e6e6;display: inline-block;position: relative;}
+.gv-list4-bt{width: 100%;height: 55rpx;line-height: 55rpx;padding: 20rpx 0;}
+.gv-list4-bt image{width: 55rpx;height: 55rpx;border-radius: 50%;float: left;}
+.gv-list4-bt text:first-of-type{font-size: 26rpx;color: #666;float: left;margin-left: 15rpx;}
+.gv-list4-bt text:last-of-type{font-size: 26rpx;color: #999;float: right;}
+.gv-list4-txt text{font-size: 28rpx;color: #333;padding-bottom: 20rpx;width: 100%;display: block;}
+.gv-list4-pic image{width: 160rpx;height: 160rpx;border-radius: 4px;float: left;}
+.gv-list4-icon{position: absolute;right: 0;bottom: 20rpx;}
+.gv-list4-icon image{width: 30rpx;height: 26rpx;float: left;}
+.gv-list4-icon text{font-size: 24rpx;color: #666;line-height: 26rpx;float: left;margin-left: 10rpx;}
+
+.goods-view-list5{width: 100%;padding: 0 24rpx;box-sizing: border-box;background: #fff;margin-top: 20rpx;}
+.goods-view-bt2{width: 100%;padding: 20rpx 0;display: inline-block;}
+.goods-view-bt2 image{width: 200rpx;float: left;}
+.goods-view-bt2 text{float: left;margin-left: 20rpx;margin-top: 10rpx;font-size: 30rpx;color: #333;}
+.gv-list5-content{width: 100%;display: inline-block;}
+.gv-list5-content .gv-list5-list{width: 33.3%;box-sizing: border-box;border-right: 1px solid #e6e6e6;height: 110rpx;text-align: center;float: left;}
+.gv-list5-content view:last-of-type{border: none;}
+.gv-list5-content view .one{font-size: 30rpx;color: #333;display: block;padding-top: 12rpx;}
+.gv-list5-content view .two{font-size: 26rpx;color: #999;display: block;padding-top: 15rpx;}
+.gv-list5-content view view{font-size: 26rpx;color: #999;padding-bottom: 5rpx;}
+.gv-list5-content view view text{color: #cc0011;font-size: 24rpx;}
+.gv-list5-content view view:last-of-type{padding-bottom: 0}
+
+.gv-list5-btn{width: 100%;margin: 50rpx 0;text-align: center;}
+.gv-list5-btn view{margin: 0 auto;display: inline-block}
+.gv-list5-btn navigator{float: left;margin-left: 60rpx;height: 50rpx;padding:  0 25rpx;border: 1px solid #cc0011;font-size: 26rpx;color: #cc0011;line-height: 50rpx;border-radius: 3px;}
+.gv-list5-btn navigator:first-of-type{margin-left: 0;}
+
+.goods-view-list6{width: 100%;padding: 0 24rpx;box-sizing: border-box;background: #fff;margin-top: 20rpx;text-align: center;margin-bottom: 100rpx;}
+.goods-view-list6 navigator{height: 100rpx;line-height: 100rpx;display: inline-block;margin: 0 auto;}
+.goods-view-list6 navigator image{width: 27rpx;height: 15rpx;float: left;margin-top: 45rpx;margin-right: 10rpx;}
+.goods-view-list6 navigator text{float: left;font-size: 30rpx;color: #666;}
+
+.bottom-nav{position:fixed;bottom:0;height:100rpx;width:100%; background:#fff;}
+.bottom-nav::before{content: "";display: block;position: absolute;top: 0;left: 0;right: 0;height: 1px;background: #e6e6e6;  } 
+.bottom-nav navigator{float:left;text-align:center;width:14%;padding:14rpx 0;margin:0 ;position:relative;height:100rpx;}
+.bottom-nav navigator::after{content: "";display: block;position: absolute; height:100rpx; top: 0;right: 0;width:1px;  background: #e6e6e6;} 
+.bottom-nav navigator.active3 text{color: #007aff;}
+.bottom-nav navigator image{display:block; height:37rpx;width:38rpx;margin:0 auto;}
+.bottom-nav navigator text{font-size:20rpx;color:#646464;line-height:1em;display:block;padding:10rpx 0 0}
+.bottom-nav .active{background:#ef8200;height:100rpx;margin:0;width:29%;padding: 0;}
+.bottom-nav .active::after{width: 0;}
+.bottom-nav .active text{color: #fff;font-size: 30rpx;line-height:100rpx;text-align: center;padding:0;}
+.bottom-nav .active2{background: #cc0011;height:100rpx;margin:0;width:29%;padding: 0;}
+.bottom-nav .active2::after{width: 0;}
+.bottom-nav .active2 text{color: #fff;font-size: 30rpx;line-height:100rpx;text-align: center;padding:0;}
+
+.footer-dc{font-size: 0}
+.footer-dc .active{display: none;}
+.footer-dc .active2{display: block;}
+.footer-dc .active3{transform: translate3d(0,0,0)!important;}
+.footer-dc .black{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.6);z-index: 6;}
+.dc-content{background: #fff;position: fixed;bottom: 0;left: 0;width: 100%;z-index: 9; transition: All 0.4s ease; transform: translate3d(0,105%,0);}
+.dc-content2{position: relative;}
+.dc-content2 button.super{background: #cc0011;border-color:#ef8200;width: 100%;height: 88rpx;line-height: 88rpx;text-align: center;border-radius: 0;color: #fff;font-size: 32rpx;margin-top: 20rpx;}
+.dc-bt{width: 100%;border-bottom: 1px solid #ccc;}
+.bt-pic{border: 2px solid #e0e0e0;border-radius: 4px;width: 168rpx;height: 168rpx;position: absolute;top: -5%;left: 30rpx;}
+.bt-pic image{width: 168rpx;height: 168rpx;}
+.bt-txt{padding: 30rpx 0;padding-left: 236rpx;}
+.bt-txt text{font-size: 32rpx;display: block;}
+.bt-txt text:first-of-type{color: #999;}
+.bt-txt text:nth-of-type(2){color: #ef8200;padding-top: 25rpx;}
+.close{position: absolute;top: 30rpx;right: 30rpx;}
+.close image{width: 36rpx;height: 36rpx;}
+.dc-list1{margin-top: 20rpx;padding: 0 30rpx;box-sizing: border-box;display: inline-block;width: 100%;}
+.dc-list1-bt{color: #999;font-size: 28rpx;line-height: 84rpx;}
+.dc-list1-content navigator{margin: 0 10rpx 10rpx 0;padding: 10rpx 20rpx;font-size: 26rpx;border: 2px solid #bdbdbd;float: left;border-radius: 4px;color: #333;text-align: center;}
+.dc-list1-btn button{float: left;height: 66rpx;text-align: center;line-height: 66rpx;font-size: 32rpx;width: 80rpx;color: #333;padding: 0}
+.dc-list1-btn text{height: 66rpx;width: 80rpx;text-align: center;float: left;font-size: 32rpx;color: #333;line-height: 66rpx;} 

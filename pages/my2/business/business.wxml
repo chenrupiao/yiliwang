@@ -1,0 +1,47 @@
+<!--pages/my2/business/business.wxml-->
+<view class="container">
+  <view class='business-top'>
+    <view class='business-top-bg'><image src='/image/my-bg2.png'></image></view>
+    <view class='business-top-content'>
+      <view class='business-top-pic'><image src='/image/pic1.png'></image></view>
+      <text>林氏家具旗舰店</text>
+    </view>
+  </view>
+  <view class='business-banner'><image src='/image/banner3.png' mode='widthFix'></image></view>
+  <view class='business-list1'>
+    <navigator url='release_goods/release_goods'>
+      <image src='/image/busy-icon1.png'></image>
+      <text>发布商品</text>
+    </navigator>
+    <navigator url='goods_manage/goods_manage'>
+      <image src='/image/busy-icon2.png'></image>
+      <text>商品管理</text>
+    </navigator>
+    <navigator url='add_ad/add_ad'>
+      <image src='/image/busy-icon3.png'></image>
+      <text>新增广告</text>
+    </navigator>
+    <navigator url='ad_manage/ad_manage'>
+      <image src='/image/busy-icon4.png'></image>
+      <text>广告管理</text>
+    </navigator>
+  </view>
+  <view class='business-list1'>
+    <navigator url='classify_manage/classify_manage'>
+      <image src='/image/busy-icon5.png'></image>
+      <text>分类管理</text>
+    </navigator>
+    <navigator url='classify_manage/classify_manage'>
+      <image src='/image/busy-icon6.png'></image>
+      <text>导航管理</text>
+    </navigator>
+    <navigator url='theme_manage/theme_manage'>
+      <image src='/image/busy-icon7.png'></image>
+      <text>主题管理</text>
+    </navigator>
+    <navigator url='goods_set_up/goods_set_up'>
+      <image src='/image/busy-icon8.png'></image>
+      <text>设置</text>
+    </navigator>
+  </view>
+</view>

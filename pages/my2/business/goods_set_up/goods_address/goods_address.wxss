@@ -1,0 +1,15 @@
+/* pages/my2/business/goods_set_up/goods_address/goods_address.wxss */
+radio-group{width: 100%;}
+.address-list{width: 100%;box-sizing: border-box;padding: 0 24rpx;background: #fff;margin-bottom: 20rpx;display: inline-block;}
+.address-list radio{float: left;font-size: 26rpx;color: #666;margin-top: 18rpx;}
+.address-list-txt{width: 100%;padding-top: 40rpx;}
+.address-list-txt text{color: #333;font-size: 32rpx;}
+.address-list-txt text:nth-of-type(2){padding-left: 125rpx;}
+.address-list-txt2{width: 100%;border-bottom: 1px solid #e6e6e6;padding-top: 20rpx;padding-bottom: 40rpx;}
+.address-list-txt2 text{font-size: 26rpx;color: #666;}
+.address-btn{float: right;padding: 30rpx 0;}
+.address-btn navigator{float: left;margin-left: 40rpx;}
+.address-btn navigator text{font-size: 26rpx;color: #666;line-height: 30rpx;float: left;margin-left: 10rpx;}
+.address-btn navigator image{height: 30rpx;width: 31rpx;float: left;}
+.address-btn2{width: 100%;box-sizing: border-box;padding: 0 40rpx;position: fixed;bottom: 30rpx;}
+.address-btn2 navigator{width: 100%;background: #cc0011;color: #fff;line-height: 90rpx;text-align: center;border:none;border-radius: 4px;font-size: 32rpx;}

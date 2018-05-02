@@ -1,0 +1,40 @@
+/* pages/shopping_trolley/firm_order/firm_order.wxss */
+.firm-order-top{width: 100%;box-sizing: border-box;padding: 0 24rpx;background: #fff;position: relative;}
+.firm-order-txt{width: 100%;padding-top: 35rpx;padding-bottom: 30rpx;display: inline-block;}
+.firm-order-txt text{font-size: 32rpx;color: #333;float: left;font-weight: bold;}
+.firm-order-txt text:first-of-type{margin-left: 40rpx;}
+.firm-order-txt text:nth-of-type(2){margin-left: 90rpx;}
+.firm-order-txt text:last-of-type{font-size: 22rpx;color: #fff;width: 75rpx;text-align: center;line-height: 30rpx;height: 30rpx;margin-left: 35rpx;font-weight: normal;background: #cc0011;margin-top: 8rpx;}
+.firm-order-txt2{width: 100%;padding-bottom: 25rpx;display: inline-block;}
+.firm-order-txt2 image{width: 26rpx;height: 32rpx;float: left;}
+.firm-order-txt2 text{font-size: 26rpx;color: #333;float: left;height: 32rpx;line-height: 32rpx;margin-left: 15rpx;}
+.firm-order-pic image{width: 15rpx;height: 27rpx;position: absolute;top: 50%;margin-top: -14rpx;right: 24rpx;}
+.firm-order-pic2{width: 100%;}
+
+.firm-order-list1{width: 100%;background: #fff;padding: 0 24rpx;box-sizing: border-box;margin-top: 35rpx;}
+.firm-order-list2{width: 100%;background: #fff;padding: 0 24rpx;box-sizing: border-box;margin-top: 20rpx;}
+.firm-order-txt3{width: 100%;display: inline-block;padding-top: 20rpx;border-bottom: 1px solid #e6e6e6}
+.firm-order-txt3 image{float: left;width: 185rpx;height: 185rpx;border-radius: 3px;margin-bottom: 20rpx;}
+.firm-order-txt4{float: left;margin-left: 30rpx;width: 430rpx;}
+.firm-order-txt4 text:first-of-type{font-size: 28rpx;color: #333;line-height: 34rpx;display: block;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;}
+.firm-order-txt4 text:nth-of-type(2){font-size: 24rpx;color: #999;padding-top: 15rpx;display: block;}
+.firm-order-txt5{width: 480rpx;float: left;margin-left: 30rpx;padding-top: 29rpx;padding-bottom: 20rpx;}
+.firm-order-txt5 text:first-of-type{float: left;font-size: 30rpx;color: #cc0011;}
+.firm-order-txt5 text:last-of-type{font-size: 32rpx;color: #666;float: right;}
+.firm-order-inp{width: 100%;height: 90rpx;line-height: 90rpx;border-bottom: 1px solid #e6e6e6;}
+.firm-order-inp text{float: left;height: 90rpx;line-height: 90rpx;font-size: 30rpx;color: #333;font-weight: bold;}
+.firm-order-inp .firm-order-txt6{float: right;font-size: 28rpx;color: #666;}
+.firm-order-inp .firm-order-txt6 image{float: right;width: 15rpx;height: 27rpx;margin-top: 34rpx;margin-left: 18rpx;}
+
+.firm-order-list3{width: 100%;background: #fff;padding: 0 24rpx;box-sizing: border-box;margin-top: 20rpx;}
+.firm-order-list3 input{height: 90rpx;line-height: 90rpx;font-size: 30rpx;width: 100%;}
+
+.firm-order-list4{width: 100%;background: #fff;padding: 30rpx 24rpx;box-sizing: border-box;margin-top: 20rpx;margin-bottom: 120rpx;}
+.firm-order-inp2{width: 100%;display: inline-block;}
+.firm-order-inp2:first-of-type{padding-bottom: 25rpx;}
+.firm-order-inp2 text:first-of-type{float: left;font-size: 30rpx;color: #333;font-weight: bold;}
+.firm-order-inp2 text:last-of-type{float: right;font-size: 30rpx;color: #cc0011;}
+
+.firm-order-btn{position: fixed;bottom: 0;left: 0;width: 100%;background: #fff;}
+.firm-order-btn navigator{float: right;height: 100rpx;line-height: 100rpx;text-align: center;color: #fff;background: #cc0011;width: 240rpx;font-size: 34rpx;}
+.firm-order-btn text{float: right;margin-right: 30rpx;line-height: 100rpx;font-size: 32rpx;color: #cc0011;}

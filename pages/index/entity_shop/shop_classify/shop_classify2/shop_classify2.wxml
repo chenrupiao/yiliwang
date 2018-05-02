@@ -1,0 +1,21 @@
+<!--pages/index/entity_shop/shop_classify/shop_classify2/shop_classify2.wxml-->
+<view class="container">
+  <view class='shop-classify-list'>
+    <navigator>全部宝贝<image src='/image/pt-icon1.png'></image></navigator>
+  </view>
+  <view class='shop-classify-list'>
+    <navigator>卧室系列<image src='/image/pt-icon1.png'></image></navigator>
+    <navigator>客厅系列<image src='/image/pt-icon1.png'></image></navigator>
+  </view>
+  <view class='shop-classify-list3'>
+    <navigator bindtap='changeclassify' wx:for='{{items}}' wx:key='{{index}}' data-index='{{index}}'>{{item.bt}}<image src='/image/xiajt.png'></image>
+      <view class="shop-classify-content  {{index==id ? 'active' : ''}}"  data-index='{{index}}'>
+        <navigator url='{{item.url1}}'>{{item.txt1}}</navigator>
+        <navigator url='{{item.url2}}'>{{item.txt2}}</navigator>
+        <navigator>{{item.txt3}}</navigator>
+        <navigator>{{item.txt4}}</navigator>
+        <view>查看全部</view>
+      </view>
+    </navigator>
+  </view>
+</view>

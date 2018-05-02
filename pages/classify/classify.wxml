@@ -1,0 +1,48 @@
+<!--pages/classify/classify.wxml-->
+<view class="container">
+  <scroll-view scroll-y="true" style="height: 1110rpx;width:180rpx;float:left;">
+    <view class='classify-fl'>
+      <navigator hover-class='none' wx:for="{{arrays}}" wx:key="{{index}}" data-index='{{index}}' class="{{index==id ? 'active' : '' }}" bindtap='changeclass'>
+        <text>{{item.txt}}</text>
+        <view></view>
+      </navigator>
+    </view>
+  </scroll-view>
+  <scroll-view scroll-y="true" style="height: 1110rpx;width:520rpx;float:right;margin-right:24rpx;" scroll-into-view="{{toView}}" scroll-with-animation="true">
+    <view class='classify-fr'>
+      <view class='classify-banner'><image src='/image/banner5.png' mode='widthFix'></image></view>
+      <view class='classify-list' wx:for="{{items}}" wx:key="{{index}}" data-index='{{index}}'>
+        <view class='classify-bt' id='{{item.ids}}'>
+          <text>{{item.bt}}</text> 
+          <image src='/image/pt-icon1.png'></image>
+        </view>
+        <view class='classify-list-content'>
+          <navigator url='{{item.url1}}'>
+            <image src='{{item.pic1}}'></image>
+            <text>{{item.txt1}}</text>
+          </navigator>
+          <navigator url='{{item.url1}}'>
+            <image src='{{item.pic1}}'></image>
+            <text>{{item.txt1}}</text>
+          </navigator>
+          <navigator url='{{item.url1}}'>
+            <image src='{{item.pic1}}'></image>
+            <text>{{item.txt1}}</text>
+          </navigator>
+          <navigator url='{{item.url1}}'>
+            <image src='{{item.pic1}}'></image>
+            <text>{{item.txt1}}</text>
+          </navigator>
+          <navigator url='{{item.url1}}'>
+            <image src='{{item.pic1}}'></image>
+            <text>{{item.txt1}}</text>
+          </navigator>
+          <navigator url='{{item.url2}}'>
+            <image src='{{item.pic2}}'></image>
+            <text>{{item.txt2}}</text>
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

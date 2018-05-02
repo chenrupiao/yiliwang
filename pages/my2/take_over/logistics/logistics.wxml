@@ -1,0 +1,39 @@
+<!--pages/my2/take_over/logistics/logistics.wxml-->
+<view class="container">
+  <view class='log-top'>
+    <image src='/image/pay-pic.png'></image>
+    <view class='log-txt'>
+      <view class='one'>物流状态：<text>运输中</text></view>
+      <text>承运物流：中通快递</text>
+      <text>运单编号：12121212121</text>
+      <view class='two'>官方电话：<text>12121</text></view>
+    </view>
+  </view>
+  <view class='log-bt'>
+    <text>下单时间：   2016-11-11  11:11:11</text>
+  </view>
+  <view class='content'>
+    <view class='content-fl'>
+      <view class='yuan1'></view>
+      <view class='xian'></view>
+      <view class='yuan2'></view>
+      <view class='xian'></view>
+      <view class='yuan2'></view>
+      <view class='xian'></view>
+    </view>
+    <view class='content-fr'>
+      <view class='item active'>
+        <text>确认收货，交易成功</text>
+        <text>2017-03-16  12:21:11</text>
+      </view>
+      <view class='item'>
+        <text>发货成功</text>
+        <text>2017-03-16  11:21:11</text>
+      </view>
+      <view class='item'>
+        <text>订单付款成功</text>
+        <text>2017-03-16  11:11:11</text>
+      </view>
+    </view>
+  </view>
+</view>

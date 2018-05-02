@@ -1,0 +1,18 @@
+<!--pages/my2/shop/shop.wxml-->
+<view class="container">
+  <view class="navbar page-section-spacing">
+    <navigator wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap" url='{{item.urls}}' open-type="redirect">{{item.txt}}</navigator>
+  </view>
+  <view class="child {{currentTab==1 ? 'active' : ''}}">
+    <view class="touch-item {{item.isTouchMove ? 'touch-move-active' : ''}}" data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove"  wx:key="{{index}}" wx:for="{{items}}">
+      <view class="content">
+        <image src='{{item.src}}' class='collection_pic'></image>
+        <view class='collection_list_txt1'>
+          <text>{{item.bt}}</text>
+          <view class='super'>综合评分：<view>{{item.pf}}</view></view>
+        </view>
+      </view>
+      <view class="del" catchtap="del" data-index="{{index}}">取消关注</view>
+    </view>
+  </view>
+</view>

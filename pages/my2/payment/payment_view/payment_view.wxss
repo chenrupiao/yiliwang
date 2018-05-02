@@ -1,0 +1,45 @@
+/* pages/my2/payment/payment_view/payment_view.wxss */
+page{background: #f2f2f2;}
+.pay-view-top{width: 100%;padding: 0 24rpx;box-sizing:border-box;height: 80rpx;line-height: 80rpx;background: #fff;}
+.pay-view-top text:first-of-type{font-size: 30rpx;color: #333;float: left;}
+.pay-view-top text:last-of-type{color: #cc0011;font-size: 30rpx;float: right;}
+
+.pay-view-list1{width: 100%;padding: 30rpx 24rpx;box-sizing:border-box;background: #fff;margin-top: 20rpx;}
+.pay-view-list1 image{width: 26rpx;height: 32rpx;float: left;margin-top: 5rpx;}
+.payview-list1-txt{width: 660rpx;float: left;margin-left: 10rpx;}
+.payview-list1-txt2 text{color: #333;font-size: 30rpx;}
+.payview-list1-txt2 text:last-of-type{margin-left: 140rpx;}
+.payview-list1-txt3 text{font-size: 26rpx;color: #999}
+
+.pay-view-list2{width: 100%;padding: 0 24rpx;box-sizing:border-box;background: #fff;margin-top: 20rpx;}
+.payview-list2-top{width: 100%;height: 75rpx;line-height: 75rpx;}
+.payview-list2-top image{float: left;width: 32rpx;height: 29rpx;margin-top: 23rpx;}
+.payview-list2-top text{margin-left: 10rpx;font-size: 28rpx;color: #333;float: left;height: 75rpx;line-height: 75rpx;}
+.payview-list2-mid{background: #f7f7f7;padding: 30rpx 0;box-sizing: border-box;width: 100%;display: inline-block;}
+.payview-list2-mid image{width: 120rpx;height: 120rpx;float: left;}
+.payview-list2-txt{float: left;margin-left: 15rpx;width: 540rpx;}
+.payview-list2-txt text{line-height: 34rpx;color: #333;font-size: 26rpx;}
+.payview-list2-txt view text{color: #999;font-size: 24rpx;padding-top: 10rpx;}
+.payview-list2-bottom{width: 100%;padding: 30rpx 0;display: inline-block;}
+.payview-list2-bottom navigator{height: 65rpx;line-height: 65rpx;border: 1px solid #333;border-radius: 3px;text-align: center;width: 100%;color: #333;font-size: 28rpx;box-sizing: border-box;}
+
+.pay-view-list3{width: 100%;padding: 0 24rpx;box-sizing:border-box;background: #fff;margin-top: 20rpx;}
+.pay-view-list3 view{border-bottom: 1px solid #e6e6e6;line-height: 90rpx;height: 90rpx;}
+.pay-view-list3 view text:first-of-type{font-size: 30rpx;color: #666;float: left;}
+.pay-view-list3 view text:last-of-type{font-size: 30rpx;color: #333;float: right;}
+.pay-view-list3 view:last-of-type{border: none;}
+
+.pay-view-list4{width: 100%;padding: 0 24rpx;box-sizing:border-box;background: #fff;margin-top: 20rpx;border-bottom: 1px solid #e6e6e6;}
+.payview-list4-txt view{padding-top: 30rpx;display: inline-block;width: 100%;}
+.payview-list4-txt view text:first-of-type{font-size: 30rpx;color: #666;float: left;}
+.payview-list4-txt view text:last-of-type{font-size: 30rpx;color: #cc0011;float: right;}
+.payview-list4-txt view:last-of-type{padding-bottom: 30rpx;border-bottom: 1px solid #e6e6e6;}
+.payview-list4-txt2{width: 100%;display: inline-block;padding: 30rpx 0;}
+.payview-list4-txt2 view:first-of-type{color: #333;font-size: 30rpx;width: 100%;text-align: right;}
+.payview-list4-txt2 view:first-of-type text{font-size: 40rpx;color: #cc0011;}
+.payview-list4-txt2 view:nth-of-type(2){font-size: 24rpx;color: #999;padding-top: 20rpx;width: 100%;text-align: right}
+
+.pay-view-btn{width: 100%;padding: 20rpx 24rpx;box-sizing:border-box;background: #fff;}
+.pay-view-btn navigator{float: right;width: 165rpx;height: 70rpx;line-height: 70rpx;font-size: 28rpx;border: 1px solid #333;border-radius: 3px;text-align: center;margin-left: 30rpx;}
+.pay-view-btn navigator:first-of-type{color: #cc0011;border-color: #cc0011;}
+.pay-view-btn navigator:nth-of-type(2){color: #333;}

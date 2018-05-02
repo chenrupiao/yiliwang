@@ -1,0 +1,26 @@
+/* pages/shopping_trolley/shopping_trolley.wxss */
+.cart-box{width: 100%;}
+.cart-list{position: relative;padding: 105rpx 24rpx 20rpx 24rpx;border-bottom: 1rpx solid #e6e6e6;margin-top: 20rpx;background: #fff;display: inline-block;width: 100%;box-sizing: border-box;}
+.cart-list .cart-pro-select{position: absolute;left: 24rpx;top: 25rpx;width: 45rpx;height: 45rpx;}
+.cart-bt{position: absolute;left: 94rpx;top: 34rpx;}
+.cart-bt image{width: 32rpx;height: 29rpx;float: left;}
+.cart-bt text{height: 29rpx;line-height: 29rpx;color: #333;font-size: 28rpx;float: left;margin-left: 10rpx;}
+.cart-list .cart-thumb{width: 185rpx;height: 185rpx;border-radius: 4px;float: left;margin-left: 50rpx;}
+.cart-list .cart-pro-name{float: left;width: 420rpx;line-height: 34rpx;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;font-size: 28rpx;color: #333;margin-left: 20rpx;}
+.cart-biaozhun{float: left;font-size: 24rpx;color: #999;margin-left: 20rpx;padding-top: 10rpx;}
+.cart-list .cart-pro-price{float: left;margin-left: 20rpx;padding-top: 40rpx;color: #cc0011;font-size: 30rpx;}
+.cart-list .cart-count-box{position: absolute;right: 24rpx;bottom: 20rpx;width: 160rpx;height: 50rpx;border: 1px solid #e6e6e6;border-radius: 3px;font-size: 26rpx;color: #333;}
+.cart-list .cart-count-box text{display: inline-block;line-height: 50rpx;text-align: center;}
+.cart-count-down,.cart-count-add{font-size: 26rpx;width: 50rpx;height: 100%;float: left;}
+.cart-count-num{width: 60rpx;float: left;border-left: 1px solid #e6e6e6;border-right: 1px solid #e6e6e6;box-sizing: border-box;}
+.cart-del{position: absolute;right: 24rpx;top: 0;height: 80rpx;line-height: 80rpx;text-align: center;font-size: 44rpx}
+.cart-footer{position: fixed;bottom: 0;left: 0;width: 100%;height: 100rpx;line-height: 100rpx;padding:0 100rpx 0 80rpx;box-sizing: border-box;background: #fff;color: #666;}
+.cart-footer navigator{position: absolute;right: 0;top: 0;width: 240rpx;text-align: center;line-height: 100rpx;color: #fff;font-size: 32rpx;background: #cc0011;}
+.cart-footer .cart-footer-txt{float: left;font-size: 32rpx;}
+.total-select{position: absolute;left: 20rpx;top: 25rpx;width: 45rpx;height: 45rpx;}
+.order-icon{position: absolute;right: 40rpx;top: 25rpx;width: 45rpx;height: 45rpx;}
+.order-icon image,.order-icon navigator{display: block;width: 45rpx;height: 45rpx;}
+.cart-toatl-price{float: left;margin-left: 75rpx;font-size: 32rpx;}
+.cart-toatl-price text{color: #cc0011;float: right;}
+
+.cart-no-data{padding:40rpx 0;color: #999;text-align: center;}

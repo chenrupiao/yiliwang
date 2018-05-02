@@ -1,0 +1,69 @@
+<!--pages/index/entity_mall/entity_mall.wxml-->
+<view class="container">
+  <view class='mall-top'>
+    <image src='/image/banner6.png' class='entity-banner' mode='widthFix'></image>
+    <view class='black'></view>
+    <view class='mall-top-txt'>
+      <image src='/image/logo4.png' class='mall-logo'></image>
+      <text class='mall-txt'>国际家居大卖场</text>
+      <navigator>
+        <image src='/image/aixin.png'></image>
+        <text>关注</text>
+      </navigator>
+    </view>
+  </view>
+  <view class='mall-nav'>
+    <navigator class='active' url='../entity_mall/entity_mall' open-type="redirect">
+      <image src='/image/pay-icon1-2.png'></image>
+      <text class='last'>商城首页</text>
+    </navigator>
+    <navigator url='../entity_mall2/entity_mall2' open-type="redirect">
+      <text class='first'>132</text>
+      <text class='last'>全部商城</text>
+    </navigator>
+  </view>
+  <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" class='mall-content'>
+    <view wx:for='{{items}}' wx:key="{{index}}" class='mall-list' data-index='{{index}}' style="background:url('/image/bg2.png')">
+      <text>{{item.txt}}</text>
+      <text>{{item.jiage}}</text>
+    </view>
+  </scroll-view>
+  <view class='mall-content2'>
+    <view class="page-body">
+      <view class="page-section page-section-spacing swiper">
+        <swiper indicator-dots="true" indicator-color="#fff" indicator-active-color="#cc0011" autoplay="true" interval="5000" duration="500" circular="true" style="height:300rpx;">
+          <block wx:for="{{imgUrls}}" wx:key="{{imgUrls}}">
+            <swiper-item>
+              <image src="{{item}}" class="slide-image"/>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+    </view>
+  </view>
+  <view class='mall-content3'>
+    <view class='mall-bt'>
+      <text></text>商城平面图
+    </view>
+    <view class='mall-pic'>
+      <image src='/image/map1.png'></image>
+      <image src='/image/map1.png'></image>
+    </view>
+  </view>
+  <view class='mall-content4'>
+    <navigator url='map/map'>商场地图<image src='/image/pt-icon1.png'></image></navigator>
+  </view>
+</view>
+<view class='mall-btn'>
+  <navigator url='mall_view/mall_view'>商城详情</navigator>
+  <navigator bindtap='changeclass'><image src='/image/mall-icon.png'></image>品牌分类</navigator>
+  <navigator><image src='/image/my2-icon4.png'></image> 联系商城</navigator>
+</view>
+<view class='mall-nav2 {{Class}}'>
+  <navigator>红星美凯龙</navigator>
+  <navigator>红星美凯龙</navigator>
+  <navigator>红星美凯龙</navigator>
+  <navigator>红星美凯龙</navigator>
+  <navigator>红星美凯龙</navigator>
+  <navigator>红星美凯龙</navigator>
+</view>

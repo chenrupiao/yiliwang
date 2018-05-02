@@ -1,0 +1,29 @@
+<!--pages/my2/business/ad_manage/ad_manage.wxml-->
+<view class="container">
+  <view class='ad-bt'>
+    <text>首页轮播广告</text>
+  </view>
+  <view class="ad-box">
+    <view class="ad-list" wx:for="{{carts}}" wx:key="{{index}}">
+        <icon wx:if="{{item.selected}}" type="success" color="#cc0011" data-index="{{index}}"  class="ad-select" bindtap="selectList"/>
+        <icon wx:else type="circle" class="ad-select" data-index="{{index}}" bindtap="selectList"/>
+        <image src='{{item.image}}'></image>
+    </view>
+  </view>
+  <view class='ad-bt2'>
+    <text>页面底部广告</text>
+  </view>
+  <view class="ad-box">
+    <view class="ad-list" wx:for="{{carts}}" wx:key="{{index}}">
+        <icon wx:if="{{item.selected}}" type="success" color="#cc0011" data-index="{{index}}"  class="ad-select" bindtap="selectList"/>
+        <icon wx:else type="circle" class="ad-select" data-index="{{index}}" bindtap="selectList"/>
+        <image src='{{item.image}}'></image>
+    </view>
+  </view>
+</view>
+<view class="ad-footer">
+  <icon wx:if="{{selectAllStatus}}" type="success_circle" color="#666" class="total-select" bindtap="selectAll"/>
+  <icon wx:else type="circle" color="#666" class="total-select" bindtap="selectAll"/>
+  <text class='ad-footer-txt'>全选</text>
+  <navigator url='firm_order/firm_order'>删除</navigator>
+</view>

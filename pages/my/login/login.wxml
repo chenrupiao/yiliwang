@@ -1,0 +1,32 @@
+<!--pages/my/login/login.wxml-->
+<view class="container">
+  <view class='close'>
+    <navigator><image src='/image/x.png'></image></navigator>
+  </view>
+  <view class='logo'><image src='/image/logo.png'></image></view>
+  <view class='login-list'>
+    <view class='login-inp'>
+      <image src='/image/login-yhm.png'></image>
+      <input type='text' placeholder='手机号/邮箱'></input>
+    </view>
+    <view class='login-inp'>
+      <image src='/image/login-mm.png'></image>
+      <input type='password' placeholder='请输入密码'></input>
+    </view>
+  </view>
+  <view class='login-btn'><navigator url='../../my2/my2'>登 录</navigator></view>
+  <view class='login-btn2'>
+    <navigator url='../register/register'>手机快速注册</navigator>
+    <navigator url='../retrieve_password/retrieve_password'>忘记密码？</navigator>
+  </view>
+  <view class='login-btn3'>
+    <navigator>
+      <image src='/image/login-wx.png'></image>
+      <text>微信登录</text>
+    </navigator>
+    <navigator>
+      <image src='/image/login-qq.png'></image>
+      <text>QQ登录</text>
+    </navigator>
+  </view>
+</view>

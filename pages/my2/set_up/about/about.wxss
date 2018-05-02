@@ -1,0 +1,7 @@
+/* pages/my2/set_up/about/about.wxss */
+.about-content{width: 100%;box-sizing: border-box;padding: 0 24rpx;}
+.logo2{width: 100%;text-align: center;}
+.logo2 image{width: 226rpx;height: 106rpx;margin-top: 35rpx;margin-bottom: 75rpx;}
+.about-content textarea{width: 100%;background: #fff;height: 600rpx;box-sizing: border-box;padding: 20rpx;border: 1px solid #e6e6e6;font-size: 28rpx;}
+.about-bottom{width: 100%;text-align: center;margin:100rpx 0 30rpx 0;}
+.about-bottom text{font-size: 26rpx;color: #999;}

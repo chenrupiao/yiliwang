@@ -1,0 +1,7 @@
+/* pages/my2/my_wallet/my_wallet.wxss */
+.wallet-content{margin-top: 20rpx;background: #fff;width: 100%;box-sizing: border-box;padding:0 24rpx;border-top:1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;}
+.wallet-content navigator{width: 100%;display: inline-block;height: 100rpx;line-height: 100rpx;border-bottom: 1px solid #e6e6e6}
+.wallet-content navigator:last-of-type{border: none;}
+.wallet-content navigator image{width: 15rpx;height: 27rpx;float: right;margin-top: 38rpx;margin-left: 18rpx;margin-right: 10rpx;}
+.wallet-txt{float: left;font-size: 32rpx;color: #333;}
+.wallet-txt2{float: right;font-size: 30rpx;color: #999;}

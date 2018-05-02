@@ -1,0 +1,10 @@
+<!--pages/my2/evaluate/evaluate_view2/evaluate_view2_success/evaluate_view2_success.wxml-->
+<view class="container">
+  <view class='su-content'>
+    <image src='/image/pj-icon.png'></image>
+    <view class='su-txt'>
+      <text>感谢您的评价</text>
+      <text>评价内容将在审核通过后展示</text>
+    </view>
+  </view>
+</view>

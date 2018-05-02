@@ -1,0 +1,17 @@
+<!--pages/my2/business/classify_manage/classify_manage.wxml-->
+<view class="container">
+  <view class='classify-content'>
+    <view class='classify-list' data-id="{{index}}" wx:key="{{index}}" wx:for="{{items}}">
+      <view class="classify-list-header  {{index==id ? 'active' : ''}}" bindtap='changeclass' data-id="{{index}}">
+        <text>{{item.bt}}</text>
+        <image src='/image/xiajt.png'></image>
+        <image src='/image/shangjt.png'></image>
+      </view>
+      <view class="classify-list-content {{index==id ? 'active' : ''}}">
+        <navigator>{{item.nr1}}</navigator>
+        <navigator>{{item.nr2}}</navigator>
+        <navigator>{{item.nr3}}</navigator>
+      </view>
+    </view>
+  </view>
+</view>

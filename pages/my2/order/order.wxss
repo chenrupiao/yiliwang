@@ -1,0 +1,25 @@
+/* pages/my2/order/order.wxss */
+page{background: #f2f2f2;}
+.container{font-size: 0;}
+.pay-list1{width: 100%;box-sizing: border-box;padding: 0 24rpx;background: #fff;margin-top: 20rpx;}
+.pay-list1-top{width: 100%;height: 75rpx;line-height: 75rpx;}
+.pay-list1-top image{float: left;width: 32rpx;height: 29rpx;margin-top: 24rpx;margin-right: 15rpx;}
+.pay-list1-top text{font-size: 28rpx;color: #333;height: 75rpx;line-height: 75rpx;float: left;}
+.pay-list1-top text:last-of-type{float: right;}
+.pay-list1-top text:first-of-type{float: left;}
+.pay-list1-top .red{font-size: 26rpx;color: #cc0011;float: right;}
+.pay-list1-top .red image{float: right;width: 28rpx;height: 28rpx;margin-right: 0;margin-left: 30rpx;}
+.pay-list1-top .gray{font-size: 26rpx;color: #666;float: right;}
+.pay-list1-top .gray image{float: right;width: 28rpx;height: 28rpx;margin-right: 0;margin-left: 30rpx;}
+.pay-list1-mid{width: 100%;}
+.pay-list1-content{width: 100%;padding-top: 30rpx;display: inline-block;padding-bottom: 30rpx;background: #f7f7f7;}
+.pay-list1-content image{float: left;border-radius: 3px;width: 120rpx;height: 120rpx;}
+.pay-list1-txt{float: left;width: 530rpx;margin-left: 20rpx;padding-top: 15rpx;}
+.pay-list1-txt text{font-size: 26rpx;color: #333;line-height: 34rpx;}
+.pay-list1-txt2{width: 100%;box-sizing: border-box;font-size: 28rpx;color: #333;text-align: right;height: 80rpx;line-height: 80rpx;}
+.pay-list1-txt2 view{font-size: 28rpx;color: #333;float: right;margin-left: 20rpx;}
+.pay-list1-txt2 view text{font-size: 28rpx;color: #cc0011;}
+.pay-list1-btn{width: 100%;height: 80rpx;line-height: 80rpx;border-top: 1px solid #e6e6e6;}
+.pay-list1-btn navigator{margin-left: 30rpx;}
+.pay-list1-btn navigator:first-of-type{float: right;height: 54rpx;padding: 0 35rpx;border: 1px solid #cc0011;border-radius: 3px;font-size: 26rpx;color: #cc0011;line-height: 54rpx;margin-top: 13rpx;}
+.pay-list1-btn navigator:nth-of-type(2){float: right;height: 54rpx;padding: 0 35rpx;border: 1px solid #333;border-radius: 3px;font-size: 26rpx;color: #333;line-height: 54rpx;margin-top: 13rpx;}

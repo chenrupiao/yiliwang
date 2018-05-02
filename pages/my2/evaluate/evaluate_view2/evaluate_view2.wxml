@@ -1,0 +1,50 @@
+<!--pages/my2/evaluate/evaluate_view2/evaluate_view2.wxml-->
+<view class="container">
+  <view class='eview2-list1'>
+    <view class='eview2-list1-top'>
+      <image src='/image/pay-pic.png'></image>
+      <textarea placeholder='亲！写下您的购买体会和使用感受吧~'></textarea>
+    </view>
+    <view class='eview2-list1-mid'>
+      <image src='/image/paizhao.png' bindtap='eviewmid'></image>
+      <image src='/image/pic1.png'></image>
+    </view>
+    <view class='eview2-list1-bottom'>
+      <view class="l-evalbox">
+        <text class="l-evaltxt">描述相符</text>
+        <view class="right">
+          <view bindtap="starTap" data-index="{{index}}"  class="star" wx:for="{{userStars}}" wx:key="index">
+            <image src="{{item}}"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='eview2-list2'>
+    <view class="l-evalbox">
+      <text class="l-evaltxt">店铺评分</text>
+    </view>
+    <view class="l-evalbox">
+      <text class="l-evaltxt">物流服务</text>
+      <view class="right">
+        <view bindtap="starTap2" data-index="{{index}}"  class="star" wx:for="{{userStars2}}" wx:key="index">
+          <image src="{{item}}"></image>
+        </view>
+      </view>
+    </view>
+    <view class="l-evalbox">
+      <text class="l-evaltxt">服务态度</text>
+      <view class="right">
+        <view bindtap="starTap3" data-index="{{index}}"  class="star" wx:for="{{userStars3}}" wx:key="index">
+          <image src="{{item}}"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='eview-nav'>
+  <radio-group>
+    <radio color='#cc0011'>匿名评价</radio>
+  </radio-group>
+  <navigator url='evaluate_view2_success/evaluate_view2_success'>发表评价</navigator>
+</view>

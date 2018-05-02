@@ -1,0 +1,24 @@
+/* pages/my2/my_wallet/my_coupon/my_coupon.wxss */
+.container {align-items:stretch;}
+.navbar{flex: none;display: flex;background: #fff; padding:0 10px;border-bottom:1px solid #f5f5f5;}  
+.navbar .item{position: relative;line-height: 40px;display:flex;font-size:30rpx;margin:0 auto;color: #333;}  
+.navbar .item.active{color: #cc0011;}  
+.navbar .item.active:after{content: "";display: block;position: absolute;bottom: 0;left: 0;right: 0;height: 1px;background: #cc0011;} 
+
+.child{display: none;width: 100%;box-sizing: border-box;padding: 0 24rpx;}
+.child.active{display: block;}
+
+.coupon-list{display: inline-block;width: 100%;margin-top: 20rpx;position: relative;}
+.bg{position: absolute;top: 0;left: 0;z-index: 0;width: 100%;}
+.icon{position: absolute;top: 0;right: 0;z-index: 2;width: 156rpx;height: 156rpx;}
+.coupon-fl{position: relative;width: 214rpx;float: left;}
+.coupon-fl image{width: 214rpx;height: 190rpx;}
+.coupon-txt{position: absolute;top: 0;left: 0;width: 214rpx;text-align: center;z-index: 1;}
+.coupon-txt view{font-size: 48rpx;color: #fff;margin-top: 30rpx;}
+.coupon-txt view text{font-size: 80rpx;color: #fff;}
+.coupon-txt .small{font-size: 20rpx;color: #fff;display: block;}
+.coupon-content{width: 440rpx;float: left;position: relative;z-index: 1;margin-left: 18rpx;margin-top: 20rpx;}
+.coupon-txt2 text{font-size: 26rpx;color: #666;width: 100%;}
+.coupon-txt3{padding-top: 60rpx;display: inline-block;padding-bottom: 10rpx;border-bottom: 1px dashed #e6e6e6;width: 100%;}
+.coupon-txt3 text{font-size: 20rpx;color: #999;height: 44rpx;line-height: 44rpx;float: left;}
+.coupon-txt3 navigator{width: 120rpx;height: 44rpx;box-sizing: border-box;border: 1px solid #ee4193;color: #ee4193;border-radius: 44rpx;font-size: 22rpx;line-height: 44rpx;text-align: center;float: right;}

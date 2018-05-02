@@ -1,0 +1,26 @@
+/* pages/my2/evaluate/evaluate_view2/evaluate_view2.wxss */
+page{background: #f2f2f2;}
+
+.l-evalbox{height: 80rpx;background: #FFF;line-height: 80rpx;}
+.l-evaltxt{width: 120rpx;float: left;font-size: 28rpx;color: #333;}
+.l-evalist{float: left;margin-left: 160rpx;}
+
+.right{float: left;margin-left: 140rpx;margin-top: 20rpx;}
+.right .star {float: left;width: 40rpx;height: 41rpx;text-align: center;line-height: 41rpx;margin-left: 20rpx;}
+.star image{width: 40rpx;height: 41rpx;}
+
+.eview2-list1{padding: 0 24rpx;width: 100%;box-sizing: border-box;background: #fff;padding-bottom: 10rpx;}
+.eview2-list1-top{margin-top: 30rpx;border-bottom: 1px solid #e6e6e6;display: inline-block;width: 100%;}
+.eview2-list1-top image{width: 120rpx;height: 120rpx;float: left;border-radius: 3px}
+.eview2-list1-top textarea{float: left;width: 540rpx;height: 190rpx;margin-left: 20rpx;font-size: 26rpx;margin-bottom: 10rpx;}
+
+.eview2-list1-mid{width: 100%;padding-bottom: 30rpx;display: inline-block;}
+.eview2-list1-mid image{margin-top: 30rpx;float: left;margin-left: 20rpx;width: 160rpx;height: 160rpx;border-radius: 3px}
+.eview2-list1-mid image:nth-of-type(4n+1){margin-left: 0;}
+
+.eview2-list2{padding: 0 24rpx;width: 100%;box-sizing: border-box;background: #fff;margin-top: 20rpx;padding-bottom: 10rpx;}
+
+.eview-nav{width: 100%;position: fixed;bottom: 0;left: 0;background: #fff;height: 100rpx;line-height: 100rpx;}
+.eview-nav radio-group{float: left;}
+.eview-nav radio{color: #333;font-size: 28rpx;margin-left: 24rpx;float: left;}
+.eview-nav navigator{width: 210rpx;height: 100rpx;line-height: 100rpx;font-size: 30rpx;color: #fff;text-align: center;float: right;background: #cc0011}

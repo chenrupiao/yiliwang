@@ -1,0 +1,52 @@
+<!--pages/index/local_entity/local_entity.wxml-->
+<view class="container">
+  <view class='black {{Class}}' bindtap='close'></view>
+  <view class='local-menu'>
+    <navigator hover-class='none' class="local-menu-list1  {{index==id ? 'active' : ''}}" wx:for='{{items}}' wx:key='{{index}}' data-index='{{index}}' bindtap='changenav'>
+      <view>
+        {{item.txt}}
+        <image src='{{item.imageurl}}'></image>
+      </view>
+    </navigator>
+    <view class="local-menu2  {{id==0 ? 'active' : ''}}">
+      <view wx:for='{{items2}}' wx:key='{{index}}' data-index='{{index}}' bindtap='changes' class="local-menu2-list {{index==id1 ? 'active' : ''}}">{{item.txt}}<image src='/image/gou2.png'></image></view>
+      <view class='local-menu2-btn'>
+        <navigator bindtap='reset'>重置</navigator>
+        <navigator>确定</navigator>
+      </view>
+    </view>
+    <view class="local-menu2  {{id==1 ? 'active' : ''}}">
+      <view wx:for='{{items3}}' wx:key='{{index}}' data-index='{{index}}' bindtap='changes2' class="local-menu2-list {{index==id2 ? 'active' : ''}}">{{item.txt}}<image src='/image/gou2.png'></image></view>
+      <view class='local-menu2-btn'>
+        <navigator bindtap='reset'>重置</navigator>
+        <navigator>确定</navigator>
+      </view>
+    </view>
+    <view class="local-menu2  {{id==2 ? 'active' : ''}}">
+      <view wx:for='{{items4}}' wx:key='{{index}}' data-index='{{index}}' bindtap='changes3' class="local-menu2-list {{index==id3 ? 'active' : ''}}">{{item.txt}}<image src='/image/gou2.png'></image></view>
+      <view class='local-menu2-btn'>
+        <navigator bindtap='reset'>重置</navigator>
+        <navigator>确定</navigator>
+      </view>
+    </view>
+    <view class="local-menu2  {{id==3 ? 'active' : ''}}">
+      <view wx:for='{{items5}}' wx:key='{{index}}' data-index='{{index}}' bindtap='changes4' class="local-menu2-list {{index==id4 ? 'active' : ''}}">{{item.txt}}<image src='/image/gou2.png'></image></view>
+      <view class='local-menu2-btn'>
+        <navigator bindtap='reset'>重置</navigator>
+        <navigator>确定</navigator>
+      </view>
+    </view>
+  </view>
+  <view class='local-list' wx:for='{{array}}' wx:key='{{index}}' data-index='{{index}}'>
+    <image src='{{item.url}}'></image>
+    <view class='local-txt'>
+      <text>{{item.txt1}}</text>
+      <text>{{item.txt2}}</text>
+      <view><image src='{{item.url2}}'></image>{{item.txt3}}</view>
+    </view>
+    <view class='local-btn'>
+      <navigator class='{{item.bj}}'>{{item.txt4}}</navigator>
+      <navigator class='{{item.bj2}}'>{{item.txt5}}</navigator>
+    </view>
+  </view>
+</view>

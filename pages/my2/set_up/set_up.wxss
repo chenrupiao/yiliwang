@@ -1,0 +1,17 @@
+/* pages/my2/set_up/set_up.wxss */
+.setup-top{width: 100%;margin-top: 20rpx;box-sizing: border-box;padding: 0 24rpx;background: #fff;border-bottom: 1px solid #e6e6e6;border-top: 1px solid #e6e6e6;}
+.setup-top navigator{width: 100%;height: 100rpx;line-height: 100rpx;border-bottom: 1px solid #e6e6e6;}
+.setup-top navigator:last-of-type{border: none;}
+.setup-top navigator text{float: left;font-size: 30rpx;color: #333;}
+.setup-top navigator text:nth-of-type(2){font-size: 30rpx;color: #999;float: right;}
+.setup-top navigator switch{float: right;}
+
+.setup-mid{width: 100%;margin-top: 20rpx;box-sizing: border-box;padding: 0 24rpx;background: #fff;border-bottom: 1px solid #e6e6e6;border-top: 1px solid #e6e6e6;}
+.setup-mid navigator{width: 100%;height: 100rpx;line-height: 100rpx;}
+.setup-mid navigator text{float: left;font-size: 30rpx;color: #333;}
+.setup-txt{float: right;}
+.setup-txt image{width: 15rpx;height: 27rpx;float: left;margin-top: 38rpx;margin-left: 20rpx;}
+.setup-txt text{font-size: 30rpx;color: #999 !important;}
+
+.setup-btn{width: 100%;margin-top: 20rpx;box-sizing: border-box;padding: 0 24rpx;}
+.setup-btn button{width: 100%;height: 90rpx;line-height: 90rpx;text-align: center;background: #cc0011;font-size: 32rpx;color: #fff;}

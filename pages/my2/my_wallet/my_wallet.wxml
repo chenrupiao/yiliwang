@@ -1,0 +1,41 @@
+<!--pages/my2/my_wallet/my_wallet.wxml-->
+<view class="container">
+  <view class='wallet-content'>
+    <navigator url='my_points/my_points' hover-class='none'>
+      <view class='wallet-txt'>
+        <text>我的积分</text>
+      </view>
+      <view class='wallet-txt2'>
+        <text>20</text>
+        <image src='/image/pt-icon1.png'></image>
+      </view>
+    </navigator>
+    <navigator url='my_coupon/my_coupon' hover-class='none'>
+      <view class='wallet-txt'>
+        <text>我的优惠券</text>
+      </view>
+      <view class='wallet-txt2'>
+        <text>3</text>
+        <image src='/image/pt-icon1.png'></image>
+      </view>
+    </navigator>
+    <navigator url='remaining_sum/remaining_sum' hover-class='none'>
+      <view class='wallet-txt'>
+        <text>我的余额</text>
+      </view>
+      <view class='wallet-txt2'>
+        <text>20.00</text>
+        <image src='/image/pt-icon1.png'></image>
+      </view>
+    </navigator>
+    <navigator url='bank_card/bank_card' hover-class='none'>
+      <view class='wallet-txt'>
+        <text>我的银行卡</text>
+      </view>
+      <view class='wallet-txt2'>
+        <text>1</text>
+        <image src='/image/pt-icon1.png'></image>
+      </view>
+    </navigator>
+  </view>
+</view>

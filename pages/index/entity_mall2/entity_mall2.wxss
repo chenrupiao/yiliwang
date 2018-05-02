@@ -1,0 +1,57 @@
+/* pages/index/entity_mall2/entity_mall2.wxss */
+.mall-top{width: 100%;position: relative;}
+.entity-banner{width: 100%;}
+.black{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.4);z-index: 1}
+.mall-top-txt{position: absolute;bottom: 20rpx;left: 0;width: 100%;z-index: 2;}
+.mall-logo{width: 170rpx;height: 70rpx;float: left;}
+.mall-txt{float: left;margin-left: 30rpx;color: #fff;font-size: 28rpx;}
+.mall-top-txt navigator{width: 120rpx;height: 55rpx;line-height: 55rpx;background: #cc0011;border-radius: 3px;float: right;margin-right: 24rpx;}
+.mall-top-txt navigator image{width: 28rpx;height: 26rpx;float: left;margin-top: 16rpx;margin-left: 15rpx;}
+.mall-top-txt navigator text{color: #fff;font-size: 28rpx;float: left;margin-left: 8rpx;}
+
+.mall-nav{width: 100%;background: #fff;}
+.mall-nav navigator{width: 190rpx;height: 115rpx;text-align: center;float: left;box-sizing: border-box;padding-bottom: 10rpx;}
+.mall-nav navigator image{margin-bottom: 10rpx;margin-top: 35rpx;width: 36rpx;height: 32rpx;}
+.mall-nav navigator text{display: block;color: #333;}
+.mall-nav navigator .first{font-size: 28rpx;padding-top: 32rpx;padding-bottom: 5rpx;}
+.mall-nav navigator .last{font-size: 22rpx;}
+.mall-nav navigator.active{border-bottom: 1px solid #cc0011;}
+.mall-nav navigator.active .first{color: #cc0011;}
+.mall-nav navigator.active .last{color: #cc0011;}
+
+.mall-btn{width: 100%;position: fixed;bottom: 0;left: 0;height: 90rpx;border: 1px solid #e6e6e6;box-sizing: border-box;background: #fff;}
+.mall-btn navigator{width: 33.3%;text-align: center;font-size: 30rpx;color: #333;line-height: 90rpx;border-right: 1px solid #e6e6e6;box-sizing: border-box;float: left;}
+.mall-btn navigator:last-of-type{border: none;}
+.mall-btn navigator:nth-of-type(2) image{width: 30rpx;height: 27rpx;margin-right: 10rpx;}
+.mall-btn navigator:nth-of-type(3) image{width: 30rpx;height: 27rpx;}
+
+.mall-nav2{width: 250rpx;position: fixed;bottom: 95rpx;left: 50%;margin-left: -125rpx;background: #fff;padding: 0 25rpx;box-sizing: border-box;border-radius: 8px;border: 1px solid #e6e6e6;display: none;}
+.mall-nav2.active{display: block;}
+.mall-nav2 navigator{width: 100%;height: 90rpx;line-height: 90rpx;font-size: 30rpx;color: #333;border-bottom: 1px solid #e6e6e6;}
+.mall-nav2 navigator:last-of-type{border: none;}
+
+.mall2-content{margin-top: 20rpx;width: 100%;}
+.mall2-nav{width: 100%;display: inline-block;padding: 20rpx 0;background: #fff;}
+.mall2-nav navigator{float: left;border-right: 1px solid #e6e6e6;width: 20%;font-size: 30rpx;color: #333;line-height: 40rpx;text-align: center;box-sizing: border-box;height: 40rpx;}
+.mall2-nav navigator image{width: 14rpx;height: 21rpx;}
+.mall2-nav navigator:last-of-type{border: none;}
+.mall2-nav navigator:last-of-type image{width: 40rpx;height: 40rpx;}
+
+.mall2-content2{width: 100%;display: inline-block;margin-bottom: 90rpx;}
+.mall2-content2 navigator{width: 100%;padding: 20rpx 24rpx;box-sizing: border-box;border-bottom: 1px solid #e6e6e6;display: inline-block;background: #fff;}
+.mall2-content2 navigator image{float: left;width: 200rpx;height: 200rpx;}
+.mall2-txt{float: right;width: 480rpx;}
+.mall2-txt text:first-of-type{line-height: 45rpx;color: #333;font-size: 30rpx;padding-top: 5rpx;display: block;display: -webkit-box;
+-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;}
+.mall2-txt text:nth-of-type(2){font-size: 26rpx;color: #b2b2b2;display: block;padding-top: 10rpx;}
+.mall2-txt text:last-of-type{font-size: 32rpx;color: #cc0011;padding-top: 27rpx;display: block;}
+
+.mall2-content2.active{width: 100%;padding: 0 24rpx;box-sizing: border-box;}
+.mall2-content2.active navigator{width: 340rpx;display: inline-block;background: #fff;padding: 0 ;border: none;padding-bottom: 15rpx;margin-top: 20rpx;}
+.mall2-content2.active navigator:nth-of-type(2n+1){float: left;}
+.mall2-content2.active navigator:nth-of-type(2n+2){float: right;}
+.mall2-content2.active navigator image{float: left;width: 340rpx;height: 340rpx;}
+.mall2-txt.active{float: left;width: 100%;box-sizing: border-box;padding:0 10rpx ;}
+.mall2-txt.active text:first-of-type{line-height: 45rpx;color: #333;font-size: 30rpx;padding-top: 5rpx;display: block;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;}
+.mall2-txt.active text:nth-of-type(2){font-size: 26rpx;color: #b2b2b2;padding-top: 10rpx;display: none;}
+.mall2-txt.active text:last-of-type{font-size: 32rpx;color: #cc0011;padding-top: 10rpx;display: block;}

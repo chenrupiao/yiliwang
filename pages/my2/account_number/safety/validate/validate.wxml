@@ -1,0 +1,9 @@
+<!--pages/my2/account_number/safety/validate/validate.wxml-->
+<view class="container">
+  <view class='validate-top'>
+    <text>当前绑定手机号</text>
+    <text>180****0000</text>
+  </view>
+  <view class='validate-btn'><navigator url='../change_number/change_number'>更换手机号</navigator></view>
+  <view class='validate-txt'><text>为确保账号安全，更换手机前，需验证原手机号</text></view>
+</view>

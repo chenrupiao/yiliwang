@@ -1,0 +1,14 @@
+<!--pages/my2/business/theme_manage/theme_manage.wxml-->
+<view class="container">
+  <view class='theme-manage-content'>
+    <view class="theme-manage-list {{index==id ? 'active' : ''}}" wx:for="{{array}}" data-index="{{index}}"  wx:key="{{index}}" bindtap='changeclass'>
+      <image src='{{item.src}}' class='theme-manage-pic1'></image>
+      <image src='/image/yiqiyong.png' class="theme-manage-pic2 {{index==index2 ? 'active' : ''}}"  data-index="{{index}}"></image>
+      <text>{{item.txt}}</text>
+    </view>
+  </view>
+  <view class='theme-manage-btn'>
+    <navigator hover-class='none'>预览效果</navigator>
+    <navigator hover-class='none' bindtap='changelist'>立即启用</navigator>
+  </view>
+</view>

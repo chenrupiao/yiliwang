@@ -1,0 +1,15 @@
+/* pages/my2/business/theme_manage/theme_manage.wxss */
+.theme-manage-content{width: 100%;display: inline-block;}
+.theme-manage-list{width: 360rpx;height: 440rpx;position: relative;background: #fff;margin-top: 40rpx;text-align: center;box-sizing: border-box;}
+.theme-manage-list.active{border: 2rpx solid #cc0011;}
+.theme-manage-list:nth-of-type(2n+1){float: left;margin-left: 10rpx;}
+.theme-manage-list:nth-of-type(2n+2){float: right;margin-right: 10rpx;}
+.theme-manage-list text{display: block;font-size: 26rpx;color: #333;line-height: 80rpx;width: 100%;text-align: center;}
+.theme-manage-pic1{width: 356rpx;height: 356rpx;}
+.theme-manage-pic2{width: 97rpx;height: 97rpx;position: absolute;left: 0;top: 0;z-index: 1;display: none;}
+.theme-manage-pic2.active{display: block;}
+
+.theme-manage-btn{position: fixed;bottom: 0;left: 0;width: 100%;}
+.theme-manage-btn navigator{width: 50%;text-align: center;color: #fff;line-height: 100rpx;font-size: 32rpx;float: left;}
+.theme-manage-btn navigator:first-of-type{background: #f4a822}
+.theme-manage-btn navigator:last-of-type{background: #cc0011;}

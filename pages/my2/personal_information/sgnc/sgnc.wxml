@@ -1,0 +1,8 @@
+<!--pages/my2/personal_information/sgnc/sgnc.wxml-->
+<view class="container">
+  <view class='xgnc-content'>
+    <input type='text' placeholder='请输入昵称'></input>
+    <text>4-20个字符，可由中英文、数字、“_”、“-”组成</text>
+    <button>确定</button>
+  </view>
+</view>

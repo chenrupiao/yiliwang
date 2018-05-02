@@ -1,0 +1,22 @@
+<!--pages/my2/account_number/address/add_address/add_address.wxml-->
+<view class="container">
+  <view class='add-address-content'>
+    <view class='add-address-list'>
+      <text>收货人</text>
+      <input type='text'></input>
+    </view>
+    <view class='add-address-list'>
+      <text>联系方式</text>
+      <input type='text'></input>
+    </view>
+    <navigator class='add-address-list'>
+      <text>所在地区</text>
+      <image src='/image/pt-icon1.png'></image>
+    </navigator>
+    <view class='add-address-list'>
+      <text>详细地址</text>
+      <textarea placeholder='街道、楼牌号等'></textarea>
+    </view>
+  </view>
+  <view class='add-address-btn'><button>保存</button></view>
+</view>

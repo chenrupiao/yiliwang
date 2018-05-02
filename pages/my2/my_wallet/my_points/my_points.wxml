@@ -1,0 +1,26 @@
+<!--pages/my2/my_wallet/my_points/my_points.wxml-->
+<view class="container">
+  <view class='points-top'>
+    <text>可用积分（个）</text>
+    <text>20</text>
+  </view>
+  <view class='points-bottom'>
+    <view class='points-bt'>
+      <text>收支明细</text>
+    </view>
+    <navigator hover-class='none'>
+      <view class='points-txt'>
+        <text>商品评价奖励积分</text>
+        <text>2016-11-16  10:10:10</text>
+      </view>
+      <text class='super'>+30</text>
+    </navigator>
+    <navigator hover-class='none'>
+      <view class='points-txt'>
+        <text>选购商品抵用</text>
+        <text>2016-11-16  10:10:10</text>
+      </view>
+      <text class='super'>-10</text>
+    </navigator>
+  </view>
+</view>

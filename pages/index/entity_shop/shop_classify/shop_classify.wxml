@@ -1,0 +1,16 @@
+<!--pages/index/entity_shop/shop_classify/shop_classify.wxml-->
+<view class="container">
+  <view class='shop-classify-list'>
+    <navigator>全部宝贝<image src='/image/pt-icon1.png'></image></navigator>
+  </view>
+  <view class='shop-classify-list'>
+    <navigator url='shop_classify2/shop_classify2'>现代卧室<image src='/image/pt-icon1.png'></image></navigator>
+    <navigator>现代客厅<image src='/image/pt-icon1.png'></image></navigator>
+    <navigator>现代餐厅<image src='/image/pt-icon1.png'></image></navigator>
+    <navigator>现代书房<image src='/image/pt-icon1.png'></image></navigator>
+    <navigator>实木家具<image src='/image/pt-icon1.png'></image></navigator>
+    <navigator>北欧日式<image src='/image/pt-icon1.png'></image></navigator>
+    <navigator>儿童房间<image src='/image/pt-icon1.png'></image></navigator>
+    <navigator>全屋定制<image src='/image/pt-icon1.png'></image></navigator>
+  </view>
+</view>

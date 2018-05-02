@@ -1,0 +1,193 @@
+<!--pages/goods_view/image_txt_view/image_txt_view.wxml-->
+<view class="container">
+  <view class="navbar page-section-spacing">
+    <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+  </view>
+  <view class="tw-child {{currentTab==0 ? 'active' : ''}}">
+    <view class='tw-list1-top'>
+      <image src='/image/banner4.png' mode='widthFix'></image>
+    </view>
+    <view class='tw-list1-bottom'>
+      <view class='tw-list1-bt'>
+        <view>商品情景<text></text></view>
+      </view>
+      <view class='tw-list1-pic'>
+        <image src='/image/pic2.png' mode='widthFix'></image>
+      </view>
+    </view>
+  </view>
+  <view class="tw-child {{currentTab==1 ? 'active' : ''}}">
+    <view class='tw-list2'>
+      <view wx:for='{{arrays}}' wx:key='{{index}}' data-index='{{index}}'>
+        <text>{{item.bj}}</text>
+        <text>{{item.txt}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="tw-child {{currentTab==2 ? 'active' : ''}}">
+    <view class='tw-list3'>
+      <view class='red'>
+        <text>全部评价</text>
+        <text>3</text>
+      </view>
+      <view>
+        <text>满意</text>
+        <text>3</text>
+      </view>
+      <view>
+        <text>一般</text>
+        <text>0</text>
+      </view>
+      <view>
+        <text>不满意</text>
+        <text>0</text>
+      </view>
+      <view>
+        <text>晒家</text>
+        <text>3</text>
+      </view>
+    </view>
+    <view class='tw-list4'>
+      <view class='gv-list4-content'>
+        <view class='gv-list4-bt'>
+          <image src='/image/pic1.png'></image>
+          <text>jc****01</text>
+          <text>2016-10-10</text>
+        </view>
+        <view class='gv-list4-txt'>
+          <text>产品用过之后感觉挺好的。。。</text>
+        </view>
+        <view class='gv-list4-pic'>
+          <image src='/image/pic1.png'></image>
+        </view>
+        <view class='gv-list4-icon'>
+          <image src='/image/tw-icon.png'></image>
+          <text class='red'>0</text>
+          <image src='/image/pinglun.png'></image>
+          <text>0</text>
+        </view>
+      </view>
+      <view class='gv-list4-content'>
+        <view class='gv-list4-bt'>
+          <image src='/image/pic1.png'></image>
+          <text>jc****01</text>
+          <text>2016-10-10</text>
+        </view>
+        <view class='gv-list4-txt'>
+          <text>产品用过之后感觉挺好的。。。</text>
+        </view>
+        <view class='gv-list4-pic'>
+          <image src='/image/pic1.png'></image>
+        </view>
+        <view class='gv-list4-icon'>
+          <image src='/image/tw-icon.png'></image>
+          <text class='red'>1</text>
+          <image src='/image/pinglun.png'></image>
+          <text>0</text>
+        </view>
+      </view>
+      <view class='gv-list4-content'>
+        <view class='gv-list4-bt'>
+          <image src='/image/pic1.png'></image>
+          <text>jc****01</text>
+          <text>2016-10-10</text>
+        </view>
+        <view class='gv-list4-txt'>
+          <text>产品用过之后感觉挺好的。。。</text>
+        </view>
+        <view class='gv-list4-pic'>
+          <image src='/image/pic1.png'></image>
+        </view>
+        <view class='gv-list4-icon'>
+          <image src='/image/tw-icon.png'></image>
+          <text class='red'>1</text>
+          <image src='/image/pinglun.png'></image>
+          <text>0</text>
+        </view>
+      </view>
+      <view class='gv-list4-content'>
+        <view class='gv-list4-bt'>
+          <image src='/image/pic1.png'></image>
+          <text>jc****01</text>
+          <text>2016-10-10</text>
+        </view>
+        <view class='gv-list4-txt'>
+          <text>产品用过之后感觉挺好的。。。</text>
+        </view>
+        <view class='gv-list4-pic'>
+          <image src='/image/pic1.png'></image>
+        </view>
+        <view class='gv-list4-icon'>
+          <image src='/image/tw-icon.png'></image>
+          <text class='red'>1</text>
+          <image src='/image/pinglun.png'></image>
+          <text>0</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="bottom-nav">
+  <navigator open-type="switchTab" url=''>
+    <image src="/image/vf-icon1.png"></image>
+    <text>客服</text>
+  </navigator>
+  <navigator>
+    <image src='/image/vf-icon3.png'></image>
+    <text>店铺</text>
+  </navigator>
+  <navigator url='' bindtap='guanzhu' class='{{Class}}'>
+    <image src='{{imgurl}}'></image>
+    <text>{{text}}</text>
+  </navigator>
+  <navigator class='active' bindtap='open'>
+    <text>加入购物车</text>
+  </navigator>
+  <navigator class='active2' bindtap='open'>
+    <text>立即购买</text>
+  </navigator>
+</view>
+<view class='footer-dc'>
+  <view class='black {{close}}' bindtap='close'></view>
+  <view class='dc-content {{close2}}'>
+    <view class='dc-content2'>
+      <view class='dc-bt'>
+        <view class='bt-pic'><image src='/image/pic1.png'></image></view>
+        <view class='bt-txt'>
+          <text>冬季宝宝加绒拉条运动裤 </text>
+          <text>¥38.00</text>
+        </view>
+        <view class='close' bindtap='close'><image src='/image/x.png'></image></view>
+      </view>
+      <view class='dc-list1'>
+        <view class='dc-list1-bt'>规格</view>
+        <view class='dc-list1-content'>
+          <navigator>框架床(1500mm*2000mm)</navigator>
+          <navigator>框架床(1500mm*2000mm)</navigator>
+          <navigator>框架床(1500mm*2000mm)</navigator>
+          <navigator>框架床(1500mm*2000mm)</navigator>
+        </view>
+      </view>
+      <view class='dc-list1'>
+        <view class='dc-list1-bt'>颜色</view>
+        <view class='dc-list1-content'>
+          <navigator>黑色</navigator>
+          <navigator>黑色</navigator>
+          <navigator>黑色</navigator>
+          <navigator>黑色</navigator>
+          <navigator>黑色</navigator>
+          <navigator>黑色</navigator>
+        </view>
+      </view>
+      <view class='dc-list1'>
+        <view class='dc-list1-bt'>数量</view>
+        <view class='dc-list1-btn'>
+          <button disabled='{{disabled}}' bindtap='buttonchange'>-</button>
+          <text>{{value}}</text>
+          <button disabled='{{disabled2}}' bindtap='buttonchange2'>+</button>
+        </view>
+      </view>
+      <button class='super'>确定</button>
+    </view>
+  </view>
+</view>
